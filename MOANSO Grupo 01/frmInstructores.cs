@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MOANSO_Grupo_01
 {
-    public partial class Form1 : Form
+    public partial class frmInstructores : Form
     {
-        public Form1()
+        public frmInstructores()
         {
             InitializeComponent();
         }
