@@ -30,5 +30,10 @@ namespace MOANSO_Grupo_01
 
             form.FormClosing += frm_closing;
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
