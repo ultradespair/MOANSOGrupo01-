@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MOANSO_Grupo_01
 {
-    public partial class frmInstructores : Form
+    public partial class frmHorarios : Form
     {
-        public frmInstructores()
+        public frmHorarios()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
