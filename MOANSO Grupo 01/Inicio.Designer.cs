@@ -34,7 +34,6 @@
             this.instructoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.finanzasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.soporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -51,8 +50,7 @@
             this.alumnosToolStripMenuItem,
             this.instructoresToolStripMenuItem,
             this.deportesToolStripMenuItem,
-            this.finanzasToolStripMenuItem,
-            this.soporteToolStripMenuItem});
+            this.finanzasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1048, 98);
@@ -82,6 +80,7 @@
             // deportesToolStripMenuItem
             // 
             this.deportesToolStripMenuItem.AutoSize = false;
+            this.deportesToolStripMenuItem.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.deportesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deportesToolStripMenuItem.Image")));
             this.deportesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deportesToolStripMenuItem.Name = "deportesToolStripMenuItem";
@@ -97,15 +96,6 @@
             this.finanzasToolStripMenuItem.Size = new System.Drawing.Size(128, 94);
             this.finanzasToolStripMenuItem.Text = "Finanzas";
             this.finanzasToolStripMenuItem.Click += new System.EventHandler(this.finanzasToolStripMenuItem_Click);
-            // 
-            // soporteToolStripMenuItem
-            // 
-            this.soporteToolStripMenuItem.AutoSize = false;
-            this.soporteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("soporteToolStripMenuItem.Image")));
-            this.soporteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.soporteToolStripMenuItem.Name = "soporteToolStripMenuItem";
-            this.soporteToolStripMenuItem.Size = new System.Drawing.Size(124, 94);
-            this.soporteToolStripMenuItem.Text = "Soporte";
             // 
             // panel1
             // 
@@ -178,7 +168,6 @@
         private System.Windows.Forms.ToolStripMenuItem instructoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem finanzasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem soporteToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.PictureBox pictureBox1;
