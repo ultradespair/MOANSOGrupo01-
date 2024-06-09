@@ -28,92 +28,141 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnHistorial = new System.Windows.Forms.Button();
-            this.btnCuota = new System.Windows.Forms.Button();
+            this.btnBuscarCliente = new FontAwesome.Sharp.IconButton();
+            this.btncuota = new FontAwesome.Sharp.IconButton();
+            this.btnHistorial = new FontAwesome.Sharp.IconButton();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(102, 103);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
-            this.btnBuscar.TabIndex = 0;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 59);
+            this.label1.Location = new System.Drawing.Point(32, 186);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Código :";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // txtCodigo
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtCodigo.Location = new System.Drawing.Point(84, 183);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(100, 20);
+            this.txtCodigo.TabIndex = 2;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(225, 32);
+            this.dataGridView1.Location = new System.Drawing.Point(262, 45);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(380, 173);
+            this.dataGridView1.Size = new System.Drawing.Size(380, 281);
             this.dataGridView1.TabIndex = 5;
+            // 
+            // btnBuscarCliente
+            // 
+            this.btnBuscarCliente.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
+            this.btnBuscarCliente.IconColor = System.Drawing.Color.Black;
+            this.btnBuscarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnBuscarCliente.IconSize = 20;
+            this.btnBuscarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscarCliente.Location = new System.Drawing.Point(190, 179);
+            this.btnBuscarCliente.Name = "btnBuscarCliente";
+            this.btnBuscarCliente.Size = new System.Drawing.Size(29, 26);
+            this.btnBuscarCliente.TabIndex = 9;
+            this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            // 
+            // btncuota
+            // 
+            this.btncuota.BackColor = System.Drawing.Color.Peru;
+            this.btncuota.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btncuota.ForeColor = System.Drawing.Color.White;
+            this.btncuota.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btncuota.IconColor = System.Drawing.Color.Black;
+            this.btncuota.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btncuota.Location = new System.Drawing.Point(52, 235);
+            this.btncuota.Name = "btncuota";
+            this.btncuota.Size = new System.Drawing.Size(150, 33);
+            this.btncuota.TabIndex = 10;
+            this.btncuota.Text = "Deberes a pagar";
+            this.btncuota.UseVisualStyleBackColor = false;
             // 
             // btnHistorial
             // 
-            this.btnHistorial.Location = new System.Drawing.Point(102, 182);
+            this.btnHistorial.BackColor = System.Drawing.Color.Peru;
+            this.btnHistorial.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnHistorial.ForeColor = System.Drawing.Color.White;
+            this.btnHistorial.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnHistorial.IconColor = System.Drawing.Color.Black;
+            this.btnHistorial.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnHistorial.Location = new System.Drawing.Point(52, 274);
             this.btnHistorial.Name = "btnHistorial";
-            this.btnHistorial.Size = new System.Drawing.Size(75, 23);
-            this.btnHistorial.TabIndex = 7;
-            this.btnHistorial.Text = "Historial ";
-            this.btnHistorial.UseVisualStyleBackColor = true;
+            this.btnHistorial.Size = new System.Drawing.Size(150, 33);
+            this.btnHistorial.TabIndex = 11;
+            this.btnHistorial.Text = "Historial de pagos";
+            this.btnHistorial.UseVisualStyleBackColor = false;
             // 
-            // btnCuota
+            // iconPictureBox1
             // 
-            this.btnCuota.Location = new System.Drawing.Point(102, 142);
-            this.btnCuota.Name = "btnCuota";
-            this.btnCuota.Size = new System.Drawing.Size(75, 23);
-            this.btnCuota.TabIndex = 8;
-            this.btnCuota.Text = "Cuota";
-            this.btnCuota.UseVisualStyleBackColor = true;
+            this.iconPictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.iconPictureBox1.ForeColor = System.Drawing.Color.OliveDrab;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.iconPictureBox1.IconColor = System.Drawing.Color.OliveDrab;
+            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox1.IconSize = 73;
+            this.iconPictureBox1.Location = new System.Drawing.Point(101, 89);
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.Size = new System.Drawing.Size(73, 74);
+            this.iconPictureBox1.TabIndex = 12;
+            this.iconPictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.OliveDrab;
+            this.label2.Location = new System.Drawing.Point(96, 45);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 25);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Cliente";
             // 
             // frmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 232);
-            this.Controls.Add(this.btnCuota);
+            this.ClientSize = new System.Drawing.Size(654, 360);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.btnHistorial);
+            this.Controls.Add(this.btncuota);
+            this.Controls.Add(this.btnBuscarCliente);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnBuscar);
             this.Name = "frmClientes";
             this.Text = "frmClientes";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnHistorial;
-        private System.Windows.Forms.Button btnCuota;
+        private FontAwesome.Sharp.IconButton btnBuscarCliente;
+        private FontAwesome.Sharp.IconButton btncuota;
+        private FontAwesome.Sharp.IconButton btnHistorial;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
