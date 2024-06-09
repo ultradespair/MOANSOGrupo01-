@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MOANSO_Grupo_01
 {
-    public partial class Horarios : Form
+    public partial class frmHistorial : Form
     {
-        public Horarios()
+        public frmHistorial()
         {
             InitializeComponent();
         }

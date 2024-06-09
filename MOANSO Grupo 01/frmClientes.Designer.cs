@@ -43,9 +43,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 186);
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label1.Location = new System.Drawing.Point(23, 189);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(55, 14);
             this.label1.TabIndex = 1;
             this.label1.Text = "Código :";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -90,7 +91,7 @@
             this.btncuota.Name = "btncuota";
             this.btncuota.Size = new System.Drawing.Size(150, 33);
             this.btncuota.TabIndex = 10;
-            this.btncuota.Text = "Deberes a pagar";
+            this.btncuota.Text = "Suscripción";
             this.btncuota.UseVisualStyleBackColor = false;
             // 
             // btnHistorial
@@ -105,7 +106,7 @@
             this.btnHistorial.Name = "btnHistorial";
             this.btnHistorial.Size = new System.Drawing.Size(150, 33);
             this.btnHistorial.TabIndex = 11;
-            this.btnHistorial.Text = "Historial de pagos";
+            this.btnHistorial.Text = "Historial ";
             this.btnHistorial.UseVisualStyleBackColor = false;
             // 
             // iconPictureBox1

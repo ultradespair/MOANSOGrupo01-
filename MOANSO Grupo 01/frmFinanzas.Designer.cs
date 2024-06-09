@@ -52,79 +52,84 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 145);
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label1.Location = new System.Drawing.Point(70, 150);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(57, 14);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 180);
+            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label2.Location = new System.Drawing.Point(70, 185);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.Size = new System.Drawing.Size(62, 14);
             this.label2.TabIndex = 1;
             this.label2.Text = "Apellido :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 221);
+            this.label3.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label3.Location = new System.Drawing.Point(70, 226);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
+            this.label3.Size = new System.Drawing.Size(42, 14);
             this.label3.TabIndex = 2;
             this.label3.Text = "Edad :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(35, 262);
+            this.label4.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label4.Location = new System.Drawing.Point(70, 267);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(63, 14);
             this.label4.TabIndex = 3;
             this.label4.Text = "Telefono :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(35, 295);
+            this.label5.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label5.Location = new System.Drawing.Point(70, 300);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 13);
+            this.label5.Size = new System.Drawing.Size(51, 14);
             this.label5.TabIndex = 4;
             this.label5.Text = "Correo :";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 142);
+            this.textBox1.Location = new System.Drawing.Point(133, 147);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 20);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(97, 180);
+            this.textBox2.Location = new System.Drawing.Point(133, 185);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 20);
             this.textBox2.TabIndex = 6;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(97, 218);
+            this.textBox3.Location = new System.Drawing.Point(133, 223);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 20);
             this.textBox3.TabIndex = 7;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(97, 255);
+            this.textBox4.Location = new System.Drawing.Point(133, 260);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(132, 20);
             this.textBox4.TabIndex = 8;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(97, 292);
+            this.textBox5.Location = new System.Drawing.Point(133, 297);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(132, 20);
             this.textBox5.TabIndex = 9;
@@ -142,7 +147,7 @@
             this.button1.BackColor = System.Drawing.Color.Olive;
             this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(346, 145);
+            this.button1.Location = new System.Drawing.Point(318, 155);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 34);
             this.button1.TabIndex = 11;
@@ -154,7 +159,7 @@
             this.button2.BackColor = System.Drawing.Color.Green;
             this.button2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(346, 185);
+            this.button2.Location = new System.Drawing.Point(318, 195);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 34);
             this.button2.TabIndex = 12;
@@ -166,7 +171,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button3.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(346, 225);
+            this.button3.Location = new System.Drawing.Point(318, 235);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 34);
             this.button3.TabIndex = 13;
@@ -178,7 +183,7 @@
             this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(346, 265);
+            this.button4.Location = new System.Drawing.Point(318, 275);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 34);
             this.button4.TabIndex = 14;
@@ -189,9 +194,9 @@
             // iconPictureBox1
             // 
             this.iconPictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.iconPictureBox1.ForeColor = System.Drawing.Color.OliveDrab;
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
+            this.iconPictureBox1.IconColor = System.Drawing.Color.OliveDrab;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 74;
             this.iconPictureBox1.Location = new System.Drawing.Point(225, 51);

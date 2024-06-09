@@ -1,6 +1,6 @@
 ﻿namespace MOANSO_Grupo_01
 {
-    partial class Horarios
+    partial class frmHorarios
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.ForeColor = System.Drawing.Color.OliveDrab;
             this.label1.Location = new System.Drawing.Point(32, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(331, 25);
@@ -104,7 +104,7 @@
             this.iconPictureBox1.TabIndex = 6;
             this.iconPictureBox1.TabStop = false;
             // 
-            // Horarios
+            // frmHorarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,7 +115,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Horarios";
+            this.Name = "frmHorarios";
             this.Text = "Horarios";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
