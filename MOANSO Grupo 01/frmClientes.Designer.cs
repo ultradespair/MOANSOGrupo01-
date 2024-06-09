@@ -93,6 +93,7 @@
             this.btncuota.TabIndex = 10;
             this.btncuota.Text = "Suscripción";
             this.btncuota.UseVisualStyleBackColor = false;
+            this.btncuota.Click += new System.EventHandler(this.btncuota_Click);
             // 
             // btnHistorial
             // 
@@ -108,6 +109,7 @@
             this.btnHistorial.TabIndex = 11;
             this.btnHistorial.Text = "Historial ";
             this.btnHistorial.UseVisualStyleBackColor = false;
+            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // iconPictureBox1
             // 

@@ -21,5 +21,11 @@ namespace MOANSO_Grupo_01
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmHorarios frmHorarios = new frmHorarios();
+            frmHorarios.Show();
+        }
     }
 }

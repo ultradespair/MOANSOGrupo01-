@@ -21,5 +21,24 @@ namespace MOANSO_Grupo_01
         {
             this.Close();
         }
+
+        private void alumnosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmClientes frmclientes = new frmClientes();
+            frmclientes.Show();
+        }
+
+        private void instructoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInstructores frminstructores = new frmInstructores ();
+            frminstructores.Show();
+        }
+
+        private void finanzasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFinanzas frmfinanzas = new frmFinanzas();
+            frmfinanzas.Show();
+
+        }
     }
 }

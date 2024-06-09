@@ -21,5 +21,17 @@ namespace MOANSO_Grupo_01
         {
 
         }
+
+        private void btncuota_Click(object sender, EventArgs e)
+        {
+            frmCuotas frmcuotas = new frmCuotas();
+            frmcuotas.Show();
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            frmHistorial frmhistorial = new frmHistorial();
+            frmhistorial.Show();
+        }
     }
 }
