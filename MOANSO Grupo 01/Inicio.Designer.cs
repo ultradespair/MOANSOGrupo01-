@@ -45,6 +45,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.AutoSize = false;
             this.menuStrip1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.alumnosToolStripMenuItem,
@@ -54,59 +55,64 @@
             this.soporteToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1048, 72);
+            this.menuStrip1.Size = new System.Drawing.Size(1048, 98);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // alumnosToolStripMenuItem
             // 
+            this.alumnosToolStripMenuItem.AutoSize = false;
             this.alumnosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("alumnosToolStripMenuItem.Image")));
             this.alumnosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.alumnosToolStripMenuItem.Name = "alumnosToolStripMenuItem";
-            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(131, 68);
+            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(131, 94);
             this.alumnosToolStripMenuItem.Text = "Alumnos";
             this.alumnosToolStripMenuItem.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
             // 
             // instructoresToolStripMenuItem
             // 
+            this.instructoresToolStripMenuItem.AutoSize = false;
             this.instructoresToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("instructoresToolStripMenuItem.Image")));
             this.instructoresToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.instructoresToolStripMenuItem.Name = "instructoresToolStripMenuItem";
-            this.instructoresToolStripMenuItem.Size = new System.Drawing.Size(145, 68);
+            this.instructoresToolStripMenuItem.Size = new System.Drawing.Size(145, 94);
             this.instructoresToolStripMenuItem.Text = "Instructores";
             this.instructoresToolStripMenuItem.Click += new System.EventHandler(this.instructoresToolStripMenuItem_Click);
             // 
             // deportesToolStripMenuItem
             // 
+            this.deportesToolStripMenuItem.AutoSize = false;
             this.deportesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deportesToolStripMenuItem.Image")));
             this.deportesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deportesToolStripMenuItem.Name = "deportesToolStripMenuItem";
-            this.deportesToolStripMenuItem.Size = new System.Drawing.Size(130, 68);
+            this.deportesToolStripMenuItem.Size = new System.Drawing.Size(130, 94);
             this.deportesToolStripMenuItem.Text = "Deportes";
             // 
             // finanzasToolStripMenuItem
             // 
+            this.finanzasToolStripMenuItem.AutoSize = false;
             this.finanzasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("finanzasToolStripMenuItem.Image")));
             this.finanzasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.finanzasToolStripMenuItem.Name = "finanzasToolStripMenuItem";
-            this.finanzasToolStripMenuItem.Size = new System.Drawing.Size(128, 68);
+            this.finanzasToolStripMenuItem.Size = new System.Drawing.Size(128, 94);
             this.finanzasToolStripMenuItem.Text = "Finanzas";
             this.finanzasToolStripMenuItem.Click += new System.EventHandler(this.finanzasToolStripMenuItem_Click);
             // 
             // soporteToolStripMenuItem
             // 
+            this.soporteToolStripMenuItem.AutoSize = false;
             this.soporteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("soporteToolStripMenuItem.Image")));
             this.soporteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.soporteToolStripMenuItem.Name = "soporteToolStripMenuItem";
-            this.soporteToolStripMenuItem.Size = new System.Drawing.Size(124, 68);
+            this.soporteToolStripMenuItem.Size = new System.Drawing.Size(124, 94);
             this.soporteToolStripMenuItem.Text = "Soporte";
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 96);
+            this.panel1.Location = new System.Drawing.Point(0, 122);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1048, 497);
+            this.panel1.Size = new System.Drawing.Size(1048, 471);
             this.panel1.TabIndex = 1;
             // 
             // menuStrip2
