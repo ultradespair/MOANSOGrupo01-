@@ -40,5 +40,11 @@ namespace MOANSO_Grupo_01
             frmfinanzas.Show();
 
         }
+
+        private void deportesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDeportes frmdeportes = new frmDeportes();
+            frmdeportes.Show();
+        }
     }
 }

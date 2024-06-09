@@ -86,6 +86,7 @@
             this.deportesToolStripMenuItem.Name = "deportesToolStripMenuItem";
             this.deportesToolStripMenuItem.Size = new System.Drawing.Size(130, 94);
             this.deportesToolStripMenuItem.Text = "Deportes";
+            this.deportesToolStripMenuItem.Click += new System.EventHandler(this.deportesToolStripMenuItem_Click);
             // 
             // finanzasToolStripMenuItem
             // 
