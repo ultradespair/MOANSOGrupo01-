@@ -214,9 +214,9 @@
             this.label6.ForeColor = System.Drawing.Color.OliveDrab;
             this.label6.Location = new System.Drawing.Point(188, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(157, 30);
+            this.label6.Size = new System.Drawing.Size(175, 30);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Inscripción";
+            this.label6.Text = "Subcripción ";
             // 
             // frmFinanzas
             // 
