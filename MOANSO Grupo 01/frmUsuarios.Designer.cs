@@ -1,6 +1,6 @@
 ﻿namespace MOANSO_Grupo_01
 {
-    partial class Usuarios
+    partial class frmUsuarios
     {
         /// <summary>
         /// Required designer variable.
