@@ -33,10 +33,21 @@ namespace MOANSO_Grupo_01
 
         }
 
-        
+
         private void frmFinanzas_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            frmHorarios frmhorarios = new frmHorarios();
+            frmhorarios.Show();
         }
     }
 }

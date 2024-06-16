@@ -87,7 +87,7 @@
             this.btnAnular.Name = "btnAnular";
             this.btnAnular.Size = new System.Drawing.Size(94, 34);
             this.btnAnular.TabIndex = 5;
-            this.btnAnular.Text = "Anular";
+            this.btnAnular.Text = "Cancelar";
             this.btnAnular.UseVisualStyleBackColor = false;
             // 
             // iconPictureBox1
