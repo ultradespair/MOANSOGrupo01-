@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.tsmiAlumnos = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuCliente = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiInstructores = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiDeportes = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiFinanzas = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.contenedor = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,25 +47,25 @@
             this.menuStrip1.AutoSize = false;
             this.menuStrip1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiAlumnos,
+            this.menuCliente,
             this.tsmiInstructores,
             this.tsmiDeportes,
             this.tsmiFinanzas});
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1048, 98);
+            this.menuStrip1.Size = new System.Drawing.Size(845, 98);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // tsmiAlumnos
+            // menuCliente
             // 
-            this.tsmiAlumnos.AutoSize = false;
-            this.tsmiAlumnos.Image = ((System.Drawing.Image)(resources.GetObject("tsmiAlumnos.Image")));
-            this.tsmiAlumnos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsmiAlumnos.Name = "tsmiAlumnos";
-            this.tsmiAlumnos.Size = new System.Drawing.Size(131, 94);
-            this.tsmiAlumnos.Text = "Alumnos";
-            this.tsmiAlumnos.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
+            this.menuCliente.AutoSize = false;
+            this.menuCliente.Image = ((System.Drawing.Image)(resources.GetObject("menuCliente.Image")));
+            this.menuCliente.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuCliente.Name = "menuCliente";
+            this.menuCliente.Size = new System.Drawing.Size(131, 94);
+            this.menuCliente.Text = "Cliente";
+            this.menuCliente.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
             // 
             // tsmiInstructores
             // 
@@ -98,20 +98,20 @@
             this.tsmiFinanzas.Text = "Finanzas";
             this.tsmiFinanzas.Click += new System.EventHandler(this.finanzasToolStripMenuItem_Click);
             // 
-            // panel1
+            // contenedor
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 122);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1048, 471);
-            this.panel1.TabIndex = 1;
+            this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.contenedor.Location = new System.Drawing.Point(0, 122);
+            this.contenedor.Name = "contenedor";
+            this.contenedor.Size = new System.Drawing.Size(845, 533);
+            this.contenedor.TabIndex = 1;
             // 
             // menuStrip2
             // 
             this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlText;
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1048, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(845, 24);
             this.menuStrip2.TabIndex = 2;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -119,7 +119,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlText;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1021, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(818, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -133,7 +133,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlText;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(351, 0);
+            this.label1.Location = new System.Drawing.Point(231, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(390, 24);
             this.label1.TabIndex = 4;
@@ -143,10 +143,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 593);
+            this.ClientSize = new System.Drawing.Size(845, 655);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.contenedor);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -165,13 +165,13 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem tsmiAlumnos;
-        private System.Windows.Forms.ToolStripMenuItem tsmiInstructores;
-        private System.Windows.Forms.ToolStripMenuItem tsmiDeportes;
-        private System.Windows.Forms.ToolStripMenuItem tsmiFinanzas;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel contenedor;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem menuCliente;
+        private System.Windows.Forms.ToolStripMenuItem tsmiInstructores;
+        private System.Windows.Forms.ToolStripMenuItem tsmiDeportes;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFinanzas;
     }
 }

@@ -93,7 +93,7 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(150, 21);
+            this.groupBox2.Location = new System.Drawing.Point(181, 43);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(622, 128);
             this.groupBox2.TabIndex = 15;
@@ -215,7 +215,7 @@
             this.groupBox3.Controls.Add(this.checkBox2);
             this.groupBox3.Controls.Add(this.checkBox1);
             this.groupBox3.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(150, 155);
+            this.groupBox3.Location = new System.Drawing.Point(181, 177);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(623, 84);
             this.groupBox3.TabIndex = 18;
@@ -299,7 +299,7 @@
             // 
             this.groupBox4.Controls.Add(this.iconPictureBox1);
             this.groupBox4.Controls.Add(this.label2);
-            this.groupBox4.Location = new System.Drawing.Point(3, 12);
+            this.groupBox4.Location = new System.Drawing.Point(34, 34);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(141, 181);
             this.groupBox4.TabIndex = 24;
@@ -309,7 +309,7 @@
             // 
             this.groupBox5.Controls.Add(this.comboBox2);
             this.groupBox5.Controls.Add(this.btnAceptar);
-            this.groupBox5.Location = new System.Drawing.Point(572, 328);
+            this.groupBox5.Location = new System.Drawing.Point(603, 350);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(199, 57);
             this.groupBox5.TabIndex = 20;
@@ -327,7 +327,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 265);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 287);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(539, 166);
             this.dataGridView1.TabIndex = 25;
@@ -343,7 +343,7 @@
             // 
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.btnBuscarCliente);
-            this.groupBox1.Location = new System.Drawing.Point(572, 265);
+            this.groupBox1.Location = new System.Drawing.Point(603, 287);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(198, 57);
             this.groupBox1.TabIndex = 27;
@@ -355,7 +355,7 @@
             this.button1.BackColor = System.Drawing.Color.Olive;
             this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(4, 198);
+            this.button1.Location = new System.Drawing.Point(35, 220);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 41);
@@ -368,7 +368,7 @@
             this.button2.BackColor = System.Drawing.Color.DarkRed;
             this.button2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(572, 390);
+            this.button2.Location = new System.Drawing.Point(603, 412);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 41);
@@ -380,7 +380,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 451);
+            this.ClientSize = new System.Drawing.Size(829, 494);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);

@@ -27,5 +27,16 @@ namespace MOANSO_Grupo_01
             frmHorarios frmHorarios = new frmHorarios();
             frmHorarios.Show();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+        private void frmFinanzas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

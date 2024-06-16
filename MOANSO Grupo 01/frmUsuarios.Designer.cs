@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtClave = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnRegistrarUsuario = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,24 +59,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
             // 
-            // groupBox2
+            // txtClave
             // 
-            this.groupBox2.Controls.Add(this.btnRegistrarUsuario);
-            this.groupBox2.Location = new System.Drawing.Point(35, 387);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(204, 70);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
+            this.txtClave.Location = new System.Drawing.Point(26, 158);
+            this.txtClave.Name = "txtClave";
+            this.txtClave.Size = new System.Drawing.Size(129, 22);
+            this.txtClave.TabIndex = 3;
             // 
-            // label1
+            // txtNombre
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
-            this.label1.Location = new System.Drawing.Point(23, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 14);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nombre";
+            this.txtNombre.Location = new System.Drawing.Point(26, 80);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(129, 22);
+            this.txtNombre.TabIndex = 2;
             // 
             // label2
             // 
@@ -88,19 +83,24 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Clave";
             // 
-            // txtNombre
+            // label1
             // 
-            this.txtNombre.Location = new System.Drawing.Point(26, 80);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(129, 22);
-            this.txtNombre.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label1.Location = new System.Drawing.Point(23, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 14);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nombre";
             // 
-            // txtClave
+            // groupBox2
             // 
-            this.txtClave.Location = new System.Drawing.Point(26, 158);
-            this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(129, 22);
-            this.txtClave.TabIndex = 3;
+            this.groupBox2.Controls.Add(this.btnRegistrarUsuario);
+            this.groupBox2.Location = new System.Drawing.Point(35, 387);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(204, 70);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
             // 
             // btnRegistrarUsuario
             // 
@@ -117,16 +117,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(274, 135);
+            this.dataGridView1.Location = new System.Drawing.Point(284, 102);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(259, 322);
+            this.dataGridView1.Size = new System.Drawing.Size(510, 323);
             this.dataGridView1.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 20.25F);
-            this.label3.Location = new System.Drawing.Point(282, 58);
+            this.label3.Location = new System.Drawing.Point(440, 31);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(220, 36);
             this.label3.TabIndex = 3;
@@ -156,18 +156,18 @@
             this.iconPictureBox1.TabIndex = 5;
             this.iconPictureBox1.TabStop = false;
             // 
-            // Usuarios
+            // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 480);
+            this.ClientSize = new System.Drawing.Size(829, 494);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Usuarios";
+            this.Name = "frmUsuarios";
             this.Text = "Usuarios";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

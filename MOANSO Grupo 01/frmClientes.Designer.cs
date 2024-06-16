@@ -32,17 +32,15 @@
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnBuscarCliente = new FontAwesome.Sharp.IconButton();
-            this.btncuota = new FontAwesome.Sharp.IconButton();
-            this.btnHistorial = new FontAwesome.Sharp.IconButton();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -60,6 +58,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -71,16 +70,16 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(562, 261);
+            this.label1.Location = new System.Drawing.Point(619, 262);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 16);
+            this.label1.Size = new System.Drawing.Size(39, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Código :";
+            this.label1.Text = "DNI :";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(623, 258);
+            this.txtCodigo.Location = new System.Drawing.Point(664, 258);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 2;
@@ -88,7 +87,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(7, 295);
+            this.dataGridView1.Location = new System.Drawing.Point(48, 295);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(751, 181);
             this.dataGridView1.TabIndex = 5;
@@ -100,43 +99,11 @@
             this.btnBuscarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscarCliente.IconSize = 20;
             this.btnBuscarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscarCliente.Location = new System.Drawing.Point(729, 254);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(770, 254);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
             this.btnBuscarCliente.Size = new System.Drawing.Size(29, 26);
             this.btnBuscarCliente.TabIndex = 9;
             this.btnBuscarCliente.UseVisualStyleBackColor = true;
-            // 
-            // btncuota
-            // 
-            this.btncuota.BackColor = System.Drawing.Color.Peru;
-            this.btncuota.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btncuota.ForeColor = System.Drawing.Color.White;
-            this.btncuota.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btncuota.IconColor = System.Drawing.Color.Black;
-            this.btncuota.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncuota.Location = new System.Drawing.Point(173, 247);
-            this.btncuota.Name = "btncuota";
-            this.btncuota.Size = new System.Drawing.Size(100, 33);
-            this.btncuota.TabIndex = 10;
-            this.btncuota.Text = "Suscripción";
-            this.btncuota.UseVisualStyleBackColor = false;
-            this.btncuota.Click += new System.EventHandler(this.btncuota_Click);
-            // 
-            // btnHistorial
-            // 
-            this.btnHistorial.BackColor = System.Drawing.Color.Peru;
-            this.btnHistorial.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnHistorial.ForeColor = System.Drawing.Color.White;
-            this.btnHistorial.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnHistorial.IconColor = System.Drawing.Color.Black;
-            this.btnHistorial.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnHistorial.Location = new System.Drawing.Point(279, 247);
-            this.btnHistorial.Name = "btnHistorial";
-            this.btnHistorial.Size = new System.Drawing.Size(100, 33);
-            this.btnHistorial.TabIndex = 11;
-            this.btnHistorial.Text = "Historial ";
-            this.btnHistorial.UseVisualStyleBackColor = false;
-            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
             // iconPictureBox1
             // 
@@ -146,7 +113,7 @@
             this.iconPictureBox1.IconColor = System.Drawing.Color.OliveDrab;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 73;
-            this.iconPictureBox1.Location = new System.Drawing.Point(17, 62);
+            this.iconPictureBox1.Location = new System.Drawing.Point(58, 62);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(73, 75);
             this.iconPictureBox1.TabIndex = 12;
@@ -157,7 +124,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.OliveDrab;
-            this.label2.Location = new System.Drawing.Point(12, 25);
+            this.label2.Location = new System.Drawing.Point(53, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 25);
             this.label2.TabIndex = 13;
@@ -172,62 +139,12 @@
             this.groupBox2.Controls.Add(this.checkBox2);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(109, 146);
+            this.groupBox2.Location = new System.Drawing.Point(150, 146);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(649, 84);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Deportes";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(37, 41);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(63, 18);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Fútbol";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(238, 41);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(63, 18);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Volley";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(122, 41);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(85, 18);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Basketball";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(335, 41);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(49, 18);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Golf";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(422, 41);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(57, 18);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "Tenis";
-            this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // checkBox6
             // 
@@ -239,6 +156,56 @@
             this.checkBox6.Text = "Natación";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(422, 41);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(57, 18);
+            this.checkBox5.TabIndex = 4;
+            this.checkBox5.Text = "Tenis";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(335, 41);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(49, 18);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "Golf";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(122, 41);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(85, 18);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "Basketball";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(238, 41);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(63, 18);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Volley";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(37, 41);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(63, 18);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Fútbol";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // iconButton1
             // 
             this.iconButton1.BackColor = System.Drawing.Color.Peru;
@@ -247,7 +214,7 @@
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton1.IconColor = System.Drawing.Color.Black;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(7, 247);
+            this.iconButton1.Location = new System.Drawing.Point(150, 247);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(160, 33);
             this.iconButton1.TabIndex = 16;
@@ -258,7 +225,7 @@
             // 
             this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(7, 146);
+            this.groupBox3.Location = new System.Drawing.Point(48, 146);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(93, 84);
             this.groupBox3.TabIndex = 17;
@@ -284,7 +251,7 @@
             this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton2.IconColor = System.Drawing.Color.Black;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.Location = new System.Drawing.Point(385, 247);
+            this.iconButton2.Location = new System.Drawing.Point(325, 247);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Size = new System.Drawing.Size(100, 33);
             this.iconButton2.TabIndex = 18;
@@ -306,7 +273,7 @@
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.textBox10);
             this.groupBox4.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(118, 12);
+            this.groupBox4.Location = new System.Drawing.Point(159, 12);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(640, 128);
             this.groupBox4.TabIndex = 16;
@@ -409,11 +376,27 @@
             this.textBox10.Size = new System.Drawing.Size(159, 20);
             this.textBox10.TabIndex = 0;
             // 
+            // iconButton3
+            // 
+            this.iconButton3.BackColor = System.Drawing.Color.Peru;
+            this.iconButton3.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.iconButton3.ForeColor = System.Drawing.Color.White;
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton3.IconColor = System.Drawing.Color.Black;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.Location = new System.Drawing.Point(443, 247);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(100, 33);
+            this.iconButton3.TabIndex = 19;
+            this.iconButton3.Text = "Modificar";
+            this.iconButton3.UseVisualStyleBackColor = false;
+            // 
             // frmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 492);
+            this.ClientSize = new System.Drawing.Size(829, 494);
+            this.Controls.Add(this.iconButton3);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.iconButton2);
             this.Controls.Add(this.groupBox3);
@@ -421,8 +404,6 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.iconPictureBox1);
-            this.Controls.Add(this.btnHistorial);
-            this.Controls.Add(this.btncuota);
             this.Controls.Add(this.btnBuscarCliente);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtCodigo);
@@ -446,8 +427,6 @@
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.DataGridView dataGridView1;
         private FontAwesome.Sharp.IconButton btnBuscarCliente;
-        private FontAwesome.Sharp.IconButton btncuota;
-        private FontAwesome.Sharp.IconButton btnHistorial;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -474,5 +453,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox10;
+        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }
