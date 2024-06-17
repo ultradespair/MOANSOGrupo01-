@@ -85,7 +85,7 @@
             this.btnAnular.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAnular.Location = new System.Drawing.Point(37, 397);
             this.btnAnular.Name = "btnAnular";
-            this.btnAnular.Size = new System.Drawing.Size(94, 34);
+            this.btnAnular.Size = new System.Drawing.Size(104, 34);
             this.btnAnular.TabIndex = 5;
             this.btnAnular.Text = "Cancelar";
             this.btnAnular.UseVisualStyleBackColor = false;

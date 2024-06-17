@@ -37,12 +37,12 @@
             this.golfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nataciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
@@ -54,7 +54,9 @@
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fútbolToolStripMenuItem,
             this.basketToolStripMenuItem,
@@ -64,7 +66,8 @@
             this.nataciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(73, 450);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 35, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(100, 494);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,7 +77,7 @@
             this.fútbolToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fútbolToolStripMenuItem.Image")));
             this.fútbolToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.fútbolToolStripMenuItem.Name = "fútbolToolStripMenuItem";
-            this.fútbolToolStripMenuItem.Size = new System.Drawing.Size(140, 50);
+            this.fútbolToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.fútbolToolStripMenuItem.Text = "Fútbol";
             this.fútbolToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -84,7 +87,7 @@
             this.basketToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("basketToolStripMenuItem.Image")));
             this.basketToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.basketToolStripMenuItem.Name = "basketToolStripMenuItem";
-            this.basketToolStripMenuItem.Size = new System.Drawing.Size(140, 50);
+            this.basketToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.basketToolStripMenuItem.Text = "Basket";
             this.basketToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -94,7 +97,7 @@
             this.voleyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("voleyToolStripMenuItem.Image")));
             this.voleyToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.voleyToolStripMenuItem.Name = "voleyToolStripMenuItem";
-            this.voleyToolStripMenuItem.Size = new System.Drawing.Size(140, 50);
+            this.voleyToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.voleyToolStripMenuItem.Text = "Voley";
             this.voleyToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -104,7 +107,7 @@
             this.tenisToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("tenisToolStripMenuItem.Image")));
             this.tenisToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tenisToolStripMenuItem.Name = "tenisToolStripMenuItem";
-            this.tenisToolStripMenuItem.Size = new System.Drawing.Size(140, 50);
+            this.tenisToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.tenisToolStripMenuItem.Text = "Tenis";
             this.tenisToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -114,7 +117,7 @@
             this.golfToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("golfToolStripMenuItem.Image")));
             this.golfToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.golfToolStripMenuItem.Name = "golfToolStripMenuItem";
-            this.golfToolStripMenuItem.Size = new System.Drawing.Size(140, 50);
+            this.golfToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.golfToolStripMenuItem.Text = "Golf";
             this.golfToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
@@ -134,7 +137,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(500, 38);
+            this.groupBox1.Location = new System.Drawing.Point(530, 55);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(221, 297);
             this.groupBox1.TabIndex = 7;
@@ -142,42 +145,13 @@
             this.groupBox1.Text = "Datos de Area";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // pictureBox1
+            // label5
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(100, 60);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(359, 253);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Capacidad Maxima :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 115);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "N° veces  reservado:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Reservado actualmente por :";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(158, 190);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.TabIndex = 3;
             // 
             // label4
             // 
@@ -188,19 +162,48 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Medidas de Área:";
             // 
-            // label5
+            // label2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(158, 190);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
-            this.label5.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "N° veces  reservado:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Capacidad Maxima :";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(130, 77);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(359, 253);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 33);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(144, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Reservado actualmente por :";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(89, 338);
+            this.groupBox2.Location = new System.Drawing.Point(119, 355);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(370, 89);
             this.groupBox2.TabIndex = 9;
@@ -220,7 +223,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(829, 494);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);

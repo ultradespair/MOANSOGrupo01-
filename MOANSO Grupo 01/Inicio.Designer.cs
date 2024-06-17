@@ -30,14 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuUsuario = new System.Windows.Forms.ToolStripMenuItem();
             this.menuCliente = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiInstructores = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiDeportes = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiFinanzas = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuFinanzas = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuInstructores = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDeportes = new System.Windows.Forms.ToolStripMenuItem();
             this.contenedor = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.areasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,15 +50,27 @@
             this.menuStrip1.AutoSize = false;
             this.menuStrip1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuUsuario,
             this.menuCliente,
-            this.tsmiInstructores,
-            this.tsmiDeportes,
-            this.tsmiFinanzas});
+            this.menuFinanzas,
+            this.menuDeportes,
+            this.menuInstructores});
             this.menuStrip1.Location = new System.Drawing.Point(0, 24);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(845, 98);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuUsuario
+            // 
+            this.menuUsuario.AutoSize = false;
+            this.menuUsuario.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.menuUsuario.Image = ((System.Drawing.Image)(resources.GetObject("menuUsuario.Image")));
+            this.menuUsuario.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuUsuario.Name = "menuUsuario";
+            this.menuUsuario.Size = new System.Drawing.Size(130, 94);
+            this.menuUsuario.Text = "Usuario";
+            this.menuUsuario.Click += new System.EventHandler(this.menuUsuario_Click);
             // 
             // menuCliente
             // 
@@ -67,36 +82,39 @@
             this.menuCliente.Text = "Cliente";
             this.menuCliente.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
             // 
-            // tsmiInstructores
+            // menuFinanzas
             // 
-            this.tsmiInstructores.AutoSize = false;
-            this.tsmiInstructores.Image = ((System.Drawing.Image)(resources.GetObject("tsmiInstructores.Image")));
-            this.tsmiInstructores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsmiInstructores.Name = "tsmiInstructores";
-            this.tsmiInstructores.Size = new System.Drawing.Size(145, 94);
-            this.tsmiInstructores.Text = "Instructores";
-            this.tsmiInstructores.Click += new System.EventHandler(this.instructoresToolStripMenuItem_Click);
+            this.menuFinanzas.AutoSize = false;
+            this.menuFinanzas.Image = ((System.Drawing.Image)(resources.GetObject("menuFinanzas.Image")));
+            this.menuFinanzas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuFinanzas.Name = "menuFinanzas";
+            this.menuFinanzas.Size = new System.Drawing.Size(128, 94);
+            this.menuFinanzas.Text = "Finanzas";
+            this.menuFinanzas.Click += new System.EventHandler(this.finanzasToolStripMenuItem_Click);
             // 
-            // tsmiDeportes
+            // menuInstructores
             // 
-            this.tsmiDeportes.AutoSize = false;
-            this.tsmiDeportes.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.tsmiDeportes.Image = ((System.Drawing.Image)(resources.GetObject("tsmiDeportes.Image")));
-            this.tsmiDeportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsmiDeportes.Name = "tsmiDeportes";
-            this.tsmiDeportes.Size = new System.Drawing.Size(130, 94);
-            this.tsmiDeportes.Text = "Deportes";
-            this.tsmiDeportes.Click += new System.EventHandler(this.deportesToolStripMenuItem_Click);
+            this.menuInstructores.AutoSize = false;
+            this.menuInstructores.Image = ((System.Drawing.Image)(resources.GetObject("menuInstructores.Image")));
+            this.menuInstructores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuInstructores.Name = "menuInstructores";
+            this.menuInstructores.Size = new System.Drawing.Size(145, 94);
+            this.menuInstructores.Text = "Instructores";
+            this.menuInstructores.Click += new System.EventHandler(this.instructoresToolStripMenuItem_Click);
             // 
-            // tsmiFinanzas
+            // menuDeportes
             // 
-            this.tsmiFinanzas.AutoSize = false;
-            this.tsmiFinanzas.Image = ((System.Drawing.Image)(resources.GetObject("tsmiFinanzas.Image")));
-            this.tsmiFinanzas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsmiFinanzas.Name = "tsmiFinanzas";
-            this.tsmiFinanzas.Size = new System.Drawing.Size(128, 94);
-            this.tsmiFinanzas.Text = "Finanzas";
-            this.tsmiFinanzas.Click += new System.EventHandler(this.finanzasToolStripMenuItem_Click);
+            this.menuDeportes.AutoSize = false;
+            this.menuDeportes.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.menuDeportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.areasToolStripMenuItem,
+            this.eventosToolStripMenuItem});
+            this.menuDeportes.Image = ((System.Drawing.Image)(resources.GetObject("menuDeportes.Image")));
+            this.menuDeportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuDeportes.Name = "menuDeportes";
+            this.menuDeportes.Size = new System.Drawing.Size(130, 94);
+            this.menuDeportes.Text = "Deportes";
+            this.menuDeportes.Click += new System.EventHandler(this.deportesToolStripMenuItem_Click);
             // 
             // contenedor
             // 
@@ -139,6 +157,20 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Centro de Sistemas - Golf y Country Club";
             // 
+            // areasToolStripMenuItem
+            // 
+            this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
+            this.areasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.areasToolStripMenuItem.Text = "Areas";
+            this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
+            // 
+            // eventosToolStripMenuItem
+            // 
+            this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
+            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eventosToolStripMenuItem.Text = "Eventos";
+            this.eventosToolStripMenuItem.Click += new System.EventHandler(this.eventosToolStripMenuItem_Click);
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,8 +202,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem menuCliente;
-        private System.Windows.Forms.ToolStripMenuItem tsmiInstructores;
-        private System.Windows.Forms.ToolStripMenuItem tsmiDeportes;
-        private System.Windows.Forms.ToolStripMenuItem tsmiFinanzas;
+        private System.Windows.Forms.ToolStripMenuItem menuDeportes;
+        private System.Windows.Forms.ToolStripMenuItem menuFinanzas;
+        private System.Windows.Forms.ToolStripMenuItem menuUsuario;
+        private System.Windows.Forms.ToolStripMenuItem menuInstructores;
+        private System.Windows.Forms.ToolStripMenuItem areasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eventosToolStripMenuItem;
     }
 }

@@ -65,15 +65,32 @@ namespace MOANSO_Grupo_01
 
         private void finanzasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmFinanzas frmfinanzas = new frmFinanzas();
-            frmfinanzas.Show();
+            ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
+            AbrirFormulario(menuItem, new frmFinanzas());
 
         }
 
         private void deportesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmDeportes frmdeportes = new frmDeportes();
-            frmdeportes.Show();
+            
+        }
+
+        private void menuUsuario_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
+            AbrirFormulario(menuItem, new frmUsuarios());
+        }
+
+        private void areasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
+            AbrirFormulario(menuItem, new frmDeportes());
+        }
+
+        private void eventosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
+            AbrirFormulario(menuItem, new frmEventos());
         }
     }
 }

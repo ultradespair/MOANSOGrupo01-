@@ -388,7 +388,7 @@
             this.iconButton3.Name = "iconButton3";
             this.iconButton3.Size = new System.Drawing.Size(100, 33);
             this.iconButton3.TabIndex = 19;
-            this.iconButton3.Text = "Modificar";
+            this.iconButton3.Text = "Eliminar";
             this.iconButton3.UseVisualStyleBackColor = false;
             // 
             // frmClientes
