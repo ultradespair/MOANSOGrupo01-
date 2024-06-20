@@ -71,6 +71,42 @@
     <Compile Include="frmDeportes.Designer.cs">
       <DependentUpon>frmDeportes.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDeportesBasket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeportesBasket.Designer.cs">
+      <DependentUpon>frmDeportesBasket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeportesFutbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeportesFutbol.Designer.cs">
+      <DependentUpon>frmDeportesFutbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeportesGolf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeportesGolf.Designer.cs">
+      <DependentUpon>frmDeportesGolf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeportesNatacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeportesNatacion.Designer.cs">
+      <DependentUpon>frmDeportesNatacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeportesTenis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeportesTenis.Designer.cs">
+      <DependentUpon>frmDeportesTenis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeportesVolley.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeportesVolley.Designer.cs">
+      <DependentUpon>frmDeportesVolley.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEventos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +171,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDeportes.resx">
       <DependentUpon>frmDeportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeportesBasket.resx">
+      <DependentUpon>frmDeportesBasket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeportesFutbol.resx">
+      <DependentUpon>frmDeportesFutbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeportesGolf.resx">
+      <DependentUpon>frmDeportesGolf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeportesNatacion.resx">
+      <DependentUpon>frmDeportesNatacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeportesTenis.resx">
+      <DependentUpon>frmDeportesTenis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeportesVolley.resx">
+      <DependentUpon>frmDeportesVolley.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEventos.resx">
       <DependentUpon>frmEventos.cs</DependentUpon>
