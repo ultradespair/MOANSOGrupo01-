@@ -16,5 +16,15 @@ namespace MOANSO_Grupo_01
         {
             InitializeComponent();
         }
+
+        private void frmEventos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
