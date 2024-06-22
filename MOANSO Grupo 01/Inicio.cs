@@ -90,7 +90,7 @@ namespace MOANSO_Grupo_01
         private void eventosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
-            AbrirFormulario(menuItem, new frmEventos());
+            AbrirFormulario(menuItem, new frmReserva());
         }
     }
 }

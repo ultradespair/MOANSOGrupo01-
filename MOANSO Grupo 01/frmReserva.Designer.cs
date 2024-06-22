@@ -1,6 +1,6 @@
 ﻿namespace MOANSO_Grupo_01
 {
-    partial class frmEventos
+    partial class frmReserva
     {
         /// <summary>
         /// Required designer variable.

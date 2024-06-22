@@ -10,21 +10,13 @@ using System.Windows.Forms;
 
 namespace MOANSO_Grupo_01
 {
-    public partial class frmEventos : Form
+    public partial class frmEvento : Form
     {
-        public frmEventos()
+        public frmEvento()
         {
             InitializeComponent();
         }
 
-        private void frmEventos_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
