@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHistorial));
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnRegresarCliente = new FontAwesome.Sharp.IconButton();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRegresarHistorial = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -55,50 +56,40 @@
             this.dataGridView1.Size = new System.Drawing.Size(321, 195);
             this.dataGridView1.TabIndex = 1;
             // 
-            // btnRegresarCliente
+            // pictureBox1
             // 
-            this.btnRegresarCliente.BackColor = System.Drawing.Color.Red;
-            this.btnRegresarCliente.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnRegresarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnRegresarCliente.IconChar = FontAwesome.Sharp.IconChar.ArrowCircleLeft;
-            this.btnRegresarCliente.IconColor = System.Drawing.Color.White;
-            this.btnRegresarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRegresarCliente.IconSize = 20;
-            this.btnRegresarCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegresarCliente.Location = new System.Drawing.Point(134, 336);
-            this.btnRegresarCliente.Name = "btnRegresarCliente";
-            this.btnRegresarCliente.Size = new System.Drawing.Size(106, 46);
-            this.btnRegresarCliente.TabIndex = 2;
-            this.btnRegresarCliente.Text = "Regresar";
-            this.btnRegresarCliente.UseVisualStyleBackColor = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(152, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(73, 63);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
-            // iconPictureBox1
+            // btnRegresarHistorial
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.ListCheck;
-            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 63;
-            this.iconPictureBox1.Location = new System.Drawing.Point(154, 55);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(86, 63);
-            this.iconPictureBox1.TabIndex = 3;
-            this.iconPictureBox1.TabStop = false;
+            this.btnRegresarHistorial.BackColor = System.Drawing.Color.Red;
+            this.btnRegresarHistorial.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnRegresarHistorial.ForeColor = System.Drawing.Color.White;
+            this.btnRegresarHistorial.Location = new System.Drawing.Point(141, 345);
+            this.btnRegresarHistorial.Name = "btnRegresarHistorial";
+            this.btnRegresarHistorial.Size = new System.Drawing.Size(106, 46);
+            this.btnRegresarHistorial.TabIndex = 5;
+            this.btnRegresarHistorial.Text = "Regresar";
+            this.btnRegresarHistorial.UseVisualStyleBackColor = false;
             // 
             // frmHistorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(389, 403);
-            this.Controls.Add(this.iconPictureBox1);
-            this.Controls.Add(this.btnRegresarCliente);
+            this.Controls.Add(this.btnRegresarHistorial);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "frmHistorial";
             this.Text = "frmHistorial";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -108,7 +99,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private FontAwesome.Sharp.IconButton btnRegresarCliente;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnRegresarHistorial;
     }
 }
