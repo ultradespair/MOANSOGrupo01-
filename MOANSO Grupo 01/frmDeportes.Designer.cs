@@ -36,7 +36,7 @@
             this.tenisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.golfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nataciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelcontenedor = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,9 +56,10 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 35, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(60, 494);
+            this.menuStrip1.Size = new System.Drawing.Size(84, 494);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // fútbolToolStripMenuItem
             // 
@@ -69,6 +70,7 @@
             this.fútbolToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.fútbolToolStripMenuItem.Text = "Fútbol";
             this.fútbolToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.fútbolToolStripMenuItem.Click += new System.EventHandler(this.fútbolToolStripMenuItem_Click);
             // 
             // basketToolStripMenuItem
             // 
@@ -79,6 +81,7 @@
             this.basketToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.basketToolStripMenuItem.Text = "Basket";
             this.basketToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.basketToolStripMenuItem.Click += new System.EventHandler(this.basketToolStripMenuItem_Click_1);
             // 
             // voleyToolStripMenuItem
             // 
@@ -89,6 +92,7 @@
             this.voleyToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.voleyToolStripMenuItem.Text = "Voley";
             this.voleyToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.voleyToolStripMenuItem.Click += new System.EventHandler(this.voleyToolStripMenuItem_Click_1);
             // 
             // tenisToolStripMenuItem
             // 
@@ -99,6 +103,7 @@
             this.tenisToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.tenisToolStripMenuItem.Text = "Tenis";
             this.tenisToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tenisToolStripMenuItem.Click += new System.EventHandler(this.tenisToolStripMenuItem_Click_1);
             // 
             // golfToolStripMenuItem
             // 
@@ -109,6 +114,7 @@
             this.golfToolStripMenuItem.Size = new System.Drawing.Size(150, 70);
             this.golfToolStripMenuItem.Text = "Golf";
             this.golfToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.golfToolStripMenuItem.Click += new System.EventHandler(this.golfToolStripMenuItem_Click_1);
             // 
             // nataciónToolStripMenuItem
             // 
@@ -119,21 +125,22 @@
             this.nataciónToolStripMenuItem.Size = new System.Drawing.Size(140, 50);
             this.nataciónToolStripMenuItem.Text = "Natación";
             this.nataciónToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.nataciónToolStripMenuItem.Click += new System.EventHandler(this.nataciónToolStripMenuItem_Click);
             // 
-            // panel1
+            // panelcontenedor
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(60, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(769, 494);
-            this.panel1.TabIndex = 7;
+            this.panelcontenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelcontenedor.Location = new System.Drawing.Point(84, 0);
+            this.panelcontenedor.Name = "panelcontenedor";
+            this.panelcontenedor.Size = new System.Drawing.Size(745, 494);
+            this.panelcontenedor.TabIndex = 7;
             // 
             // frmDeportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(829, 494);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelcontenedor);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmDeportes";
@@ -153,6 +160,6 @@
         private System.Windows.Forms.ToolStripMenuItem tenisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem golfToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nataciónToolStripMenuItem;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelcontenedor;
     }
 }

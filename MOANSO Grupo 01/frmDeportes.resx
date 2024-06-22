@@ -124,7 +124,7 @@
   <data name="fútbolToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOiSURBVFhHrZdJ
+        5AAAAOQBXaJ52AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOiSURBVFhHrZdJ
         yI1RGMevebYyRChTiMgOkRIllGRc2IoVGxtsKJkyD5FiYydDYWlhjEyZsyDzPJU5Cf/f7f3fnnu+973f
         0PevX/c9z3nO8557huect9QIdRLzxU5xRTwXP8Rv8S6z7RcLRBfRbBogCPxF/Gsg3wRtBoomq71YL36J
         9AWfxQVxIoNnbKkfo7NBtBONUn9xXaQB4bboLVJhoy6vzUXRUzRIw8V74cY8bxJxCt6KacLiGZvrmYLN
@@ -167,7 +167,7 @@
   <data name="voleyToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAO/SURBVFhH1ZdZ
+        5AAAAOQBXaJ52AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAO/SURBVFhH1ZdZ
         yFVVGIaPQ2aZmkYXqeUIllJqQeRQKmZOpdhw50B3KeqFGGblgKKYWppEIJJozkN0oV4kKZhjZRBSRCUJ
         OQ94oTgkhD7PXmf/7n+ffc6/j3qhLzz4rQX/2Wt965ss3E9qCEPhU9gPx+AKXIczxb2F0Afqw13TIzAL
         TsJP8CG8DivgADwKHaEvzICDcAreh8ZwR3oH/PBWeMGNol6CE9AqWpXqWVgH/8BIN6rVA7AUbsDv8BAk
@@ -190,7 +190,7 @@
   <data name="tenisToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMaSURBVFhHvZdJ
+        5AAAAOQBXaJ52AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMaSURBVFhHvZdJ
         yM1RGIc/M9koZR4SMsRKYqGUQsZS7ExZmBaKFWUhCxKSpISwEVaGhcg8ZB6iJBvJFJnnZHye230//+//
         nfuN9/Orp+597znvec857znnvRUZtYHFcAXew1u4BAuhFeTVC5bDEXgG3+AP2O86bIOx0BJqVQ+4ATpI
         YVBdQA2Cg/ATUm3zPIZ50AKScuZGHB2+wHE4Bl+LNnE1nHHMNPgFD+Ac2Oc2fIRsG7kGPaGaXOJodAG6
@@ -210,7 +210,7 @@
   <data name="golfToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKpSURBVFhHxddL
+        5AAAAOQBXaJ52AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKpSURBVFhHxddL
         qE1RHMfx4zkwkUcUMfIcIZSJvJWJFMmEyACJZEASychI5BV5yzOUMFAoRgZk4hWJEHkMSMorfL+787+W
         Y5/j3HPbx68+ddfae6+1zt57rbVvqY70xgV8xX3MQ3s0Lefxs8ItTEBT8hl2+grehXQgDm4oCk10th+D
         cDap0zdsQUcUknQAkbG4gXQgq1FIooMDWel32mEFfsDjl1FI8gYwHqeQvhN7UEiigzNYirtJXXiMfigk
@@ -228,7 +228,7 @@
   <data name="nataciónToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJUSURBVFhH7dfL
+        5AAAAOQBXaJ52AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJUSURBVFhH7dfL
         i09hHMfxo6GwcotIRtixkUvWIhSzGLeVlXL9C1wWJJdiZ2rKLSlCKX/BuBV/go1sSLnfsnF/v3/9vvV4
         mmbOLSzmU686Pd8zzzlzznOe5/kV/1NW4WYJ59CPcWg1W/GrgtuYgNZS9QZ0Bn89S/EK3sAPrMZwWYF7
         +I6n2I3W0od4Cs8wFWkW4hPinLALreU8ouPrNiQ5ifTC4QlayXq8QNr5DkQuIq2FL2iUSRjAT+Sdf8B8

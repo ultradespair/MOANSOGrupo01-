@@ -37,7 +37,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.iconSplitButton1 = new FontAwesome.Sharp.IconSplitButton();
             this.label5 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -53,13 +52,15 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Georgia", 8.25F);
+            this.button1.BackColor = System.Drawing.Color.Peru;
+            this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(310, 75);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Reservar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // comboBox1
             // 
@@ -117,13 +118,15 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Georgia", 8.25F);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(310, 113);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(102, 23);
             this.button2.TabIndex = 10;
             this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -132,18 +135,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(786, 179);
             this.dataGridView1.TabIndex = 11;
-            // 
-            // iconSplitButton1
-            // 
-            this.iconSplitButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconSplitButton1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconSplitButton1.IconColor = System.Drawing.Color.Black;
-            this.iconSplitButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconSplitButton1.IconSize = 48;
-            this.iconSplitButton1.Name = "iconSplitButton1";
-            this.iconSplitButton1.Rotation = 0D;
-            this.iconSplitButton1.Size = new System.Drawing.Size(23, 23);
-            this.iconSplitButton1.Text = "iconSplitButton1";
             // 
             // label5
             // 
@@ -157,13 +148,15 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Georgia", 8.25F);
+            this.button3.BackColor = System.Drawing.Color.Green;
+            this.button3.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(310, 175);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 23);
             this.button3.TabIndex = 15;
             this.button3.Text = "Verificar ";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -183,13 +176,15 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Georgia", 8.25F);
+            this.button5.BackColor = System.Drawing.Color.Peru;
+            this.button5.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(251, 59);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(102, 23);
             this.button5.TabIndex = 14;
             this.button5.Text = "Ver todos";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
@@ -229,13 +224,15 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Georgia", 8.25F);
+            this.button4.BackColor = System.Drawing.Color.DarkCyan;
+            this.button4.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(251, 20);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(102, 23);
             this.button4.TabIndex = 1;
             this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // frmReserva
             // 
@@ -276,7 +273,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private FontAwesome.Sharp.IconSplitButton iconSplitButton1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.GroupBox groupBox1;
