@@ -33,14 +33,15 @@
             this.menuUsuario = new System.Windows.Forms.ToolStripMenuItem();
             this.menuCliente = new System.Windows.Forms.ToolStripMenuItem();
             this.menuFinanzas = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuInstructores = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDeportes = new System.Windows.Forms.ToolStripMenuItem();
+            this.areasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuInstructores = new System.Windows.Forms.ToolStripMenuItem();
             this.contenedor = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.areasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -92,6 +93,35 @@
             this.menuFinanzas.Text = "Finanzas";
             this.menuFinanzas.Click += new System.EventHandler(this.finanzasToolStripMenuItem_Click);
             // 
+            // menuDeportes
+            // 
+            this.menuDeportes.AutoSize = false;
+            this.menuDeportes.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.menuDeportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.areasToolStripMenuItem,
+            this.eventosToolStripMenuItem,
+            this.reservaToolStripMenuItem});
+            this.menuDeportes.Image = ((System.Drawing.Image)(resources.GetObject("menuDeportes.Image")));
+            this.menuDeportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuDeportes.Name = "menuDeportes";
+            this.menuDeportes.Size = new System.Drawing.Size(130, 94);
+            this.menuDeportes.Text = "Deportes";
+            this.menuDeportes.Click += new System.EventHandler(this.deportesToolStripMenuItem_Click);
+            // 
+            // areasToolStripMenuItem
+            // 
+            this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
+            this.areasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.areasToolStripMenuItem.Text = "Areas";
+            this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
+            // 
+            // eventosToolStripMenuItem
+            // 
+            this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
+            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eventosToolStripMenuItem.Text = "Eventos";
+            this.eventosToolStripMenuItem.Click += new System.EventHandler(this.eventosToolStripMenuItem_Click);
+            // 
             // menuInstructores
             // 
             this.menuInstructores.AutoSize = false;
@@ -101,20 +131,6 @@
             this.menuInstructores.Size = new System.Drawing.Size(145, 94);
             this.menuInstructores.Text = "Instructores";
             this.menuInstructores.Click += new System.EventHandler(this.instructoresToolStripMenuItem_Click);
-            // 
-            // menuDeportes
-            // 
-            this.menuDeportes.AutoSize = false;
-            this.menuDeportes.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.menuDeportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.areasToolStripMenuItem,
-            this.eventosToolStripMenuItem});
-            this.menuDeportes.Image = ((System.Drawing.Image)(resources.GetObject("menuDeportes.Image")));
-            this.menuDeportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menuDeportes.Name = "menuDeportes";
-            this.menuDeportes.Size = new System.Drawing.Size(130, 94);
-            this.menuDeportes.Text = "Deportes";
-            this.menuDeportes.Click += new System.EventHandler(this.deportesToolStripMenuItem_Click);
             // 
             // contenedor
             // 
@@ -157,19 +173,12 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Centro de Sistemas - Golf y Country Club";
             // 
-            // areasToolStripMenuItem
+            // reservaToolStripMenuItem
             // 
-            this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
-            this.areasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.areasToolStripMenuItem.Text = "Areas";
-            this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
-            // 
-            // eventosToolStripMenuItem
-            // 
-            this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
-            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eventosToolStripMenuItem.Text = "Eventos";
-            this.eventosToolStripMenuItem.Click += new System.EventHandler(this.eventosToolStripMenuItem_Click);
+            this.reservaToolStripMenuItem.Name = "reservaToolStripMenuItem";
+            this.reservaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reservaToolStripMenuItem.Text = "Reserva";
+            this.reservaToolStripMenuItem.Click += new System.EventHandler(this.reservaToolStripMenuItem_Click);
             // 
             // Inicio
             // 
@@ -208,5 +217,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuInstructores;
         private System.Windows.Forms.ToolStripMenuItem areasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eventosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservaToolStripMenuItem;
     }
 }
