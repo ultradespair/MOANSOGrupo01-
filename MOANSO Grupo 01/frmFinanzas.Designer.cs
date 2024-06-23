@@ -29,89 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFinanzas));
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnAnularSuscripcion = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.btnPagarSuscripcion = new System.Windows.Forms.Button();
-            this.btnProgramacion = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnBuscarCliente = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtClientePago = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbldeporte = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnBuscarCliente = new System.Windows.Forms.Button();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnAnularSuscripcion);
-            this.groupBox2.Controls.Add(this.dataGridView2);
-            this.groupBox2.Controls.Add(this.btnPagarSuscripcion);
-            this.groupBox2.Location = new System.Drawing.Point(439, 157);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(378, 325);
-            this.groupBox2.TabIndex = 23;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Confirmacion";
-            // 
-            // btnAnularSuscripcion
-            // 
-            this.btnAnularSuscripcion.BackColor = System.Drawing.Color.Red;
-            this.btnAnularSuscripcion.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnAnularSuscripcion.ForeColor = System.Drawing.Color.White;
-            this.btnAnularSuscripcion.Location = new System.Drawing.Point(29, 274);
-            this.btnAnularSuscripcion.Name = "btnAnularSuscripcion";
-            this.btnAnularSuscripcion.Size = new System.Drawing.Size(105, 34);
-            this.btnAnularSuscripcion.TabIndex = 14;
-            this.btnAnularSuscripcion.Text = "Anular ";
-            this.btnAnularSuscripcion.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(29, 25);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(321, 243);
-            this.dataGridView2.TabIndex = 24;
-            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
-            // 
-            // btnPagarSuscripcion
-            // 
-            this.btnPagarSuscripcion.BackColor = System.Drawing.Color.Green;
-            this.btnPagarSuscripcion.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnPagarSuscripcion.ForeColor = System.Drawing.Color.White;
-            this.btnPagarSuscripcion.Location = new System.Drawing.Point(245, 274);
-            this.btnPagarSuscripcion.Name = "btnPagarSuscripcion";
-            this.btnPagarSuscripcion.Size = new System.Drawing.Size(105, 34);
-            this.btnPagarSuscripcion.TabIndex = 12;
-            this.btnPagarSuscripcion.Text = "Pagar";
-            this.btnPagarSuscripcion.UseVisualStyleBackColor = false;
-            // 
-            // btnProgramacion
-            // 
-            this.btnProgramacion.BackColor = System.Drawing.Color.Olive;
-            this.btnProgramacion.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnProgramacion.ForeColor = System.Drawing.Color.White;
-            this.btnProgramacion.Location = new System.Drawing.Point(71, 64);
-            this.btnProgramacion.Name = "btnProgramacion";
-            this.btnProgramacion.Size = new System.Drawing.Size(235, 34);
-            this.btnProgramacion.TabIndex = 11;
-            this.btnProgramacion.Text = "Programación";
-            this.btnProgramacion.UseVisualStyleBackColor = false;
-            this.btnProgramacion.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Controls.Add(this.btnBuscarCliente);
             this.groupBox3.Controls.Add(this.pictureBox1);
             this.groupBox3.Controls.Add(this.txtClientePago);
@@ -124,6 +61,15 @@
             this.groupBox3.TabIndex = 24;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Cliente";
+            // 
+            // btnBuscarCliente
+            // 
+            this.btnBuscarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarCliente.Image")));
+            this.btnBuscarCliente.Location = new System.Drawing.Point(240, 137);
+            this.btnBuscarCliente.Name = "btnBuscarCliente";
+            this.btnBuscarCliente.Size = new System.Drawing.Size(29, 32);
+            this.btnBuscarCliente.TabIndex = 29;
+            this.btnBuscarCliente.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -166,86 +112,78 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(31, 186);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(319, 243);
+            this.dataGridView1.Size = new System.Drawing.Size(319, 222);
             this.dataGridView1.TabIndex = 22;
             // 
-            // groupBox1
+            // comboBox1
             // 
-            this.groupBox1.Controls.Add(this.lbldeporte);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btnProgramacion);
-            this.groupBox1.Location = new System.Drawing.Point(439, 32);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(378, 113);
-            this.groupBox1.TabIndex = 25;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Horarios";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(119, 424);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(115, 21);
+            this.comboBox1.TabIndex = 30;
             // 
-            // lbldeporte
+            // label3
             // 
-            this.lbldeporte.AutoSize = true;
-            this.lbldeporte.Location = new System.Drawing.Point(125, 39);
-            this.lbldeporte.Name = "lbldeporte";
-            this.lbldeporte.Size = new System.Drawing.Size(35, 13);
-            this.lbldeporte.TabIndex = 13;
-            this.lbldeporte.Text = "label3";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(28, 427);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 13);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Método de pago";
             // 
-            // label1
+            // button1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Deporte: ";
+            this.button1.BackColor = System.Drawing.Color.YellowGreen;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 488);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(192, 47);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Aprobar ";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // btnBuscarCliente
+            // button2
             // 
-            this.btnBuscarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarCliente.Image")));
-            this.btnBuscarCliente.Location = new System.Drawing.Point(240, 137);
-            this.btnBuscarCliente.Name = "btnBuscarCliente";
-            this.btnBuscarCliente.Size = new System.Drawing.Size(29, 32);
-            this.btnBuscarCliente.TabIndex = 29;
-            this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(214, 488);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(189, 47);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Anular";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // frmFinanzas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(829, 494);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(423, 547);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Name = "frmFinanzas";
             this.Text = "frmFinanzas";
             this.Load += new System.EventHandler(this.frmFinanzas_Load);
-            this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.Button btnPagarSuscripcion;
-        private System.Windows.Forms.Button btnAnularSuscripcion;
-        private System.Windows.Forms.Button btnProgramacion;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox txtClientePago;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lbldeporte;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnBuscarCliente;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

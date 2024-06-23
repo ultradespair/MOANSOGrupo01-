@@ -189,14 +189,11 @@
             this.groupBox3.Size = new System.Drawing.Size(93, 84);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Método Pago";
+            this.groupBox3.Text = "Intervalo de Horario";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Cash",
-            "Tarjeta"});
             this.comboBox1.Location = new System.Drawing.Point(6, 37);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(77, 22);
