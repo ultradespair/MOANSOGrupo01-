@@ -203,7 +203,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Name = "frmReserva";
-            this.Text = "frmEventos";
+            this.Text = "frmReserva";
             this.Load += new System.EventHandler(this.frmEventos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);

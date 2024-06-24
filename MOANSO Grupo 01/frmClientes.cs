@@ -22,5 +22,9 @@ namespace MOANSO_Grupo_01
 
         }
 
+        private void frmClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

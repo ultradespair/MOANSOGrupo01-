@@ -60,6 +60,7 @@
             this.btnEliminarCliente = new System.Windows.Forms.Button();
             this.btnRegistroCliente = new System.Windows.Forms.Button();
             this.btnBuscarClienteMo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -71,7 +72,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(607, 262);
+            this.label1.Location = new System.Drawing.Point(607, 272);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 16);
             this.label1.TabIndex = 1;
@@ -80,7 +81,7 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(652, 258);
+            this.txtCodigo.Location = new System.Drawing.Point(652, 268);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 20);
             this.txtCodigo.TabIndex = 2;
@@ -88,7 +89,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(36, 295);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 301);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(751, 181);
             this.dataGridView1.TabIndex = 5;
@@ -98,7 +99,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.OliveDrab;
-            this.label2.Location = new System.Drawing.Point(41, 25);
+            this.label2.Location = new System.Drawing.Point(41, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 25);
             this.label2.TabIndex = 13;
@@ -113,9 +114,9 @@
             this.groupBox2.Controls.Add(this.checkBox2);
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(138, 146);
+            this.groupBox2.Location = new System.Drawing.Point(138, 164);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(649, 84);
+            this.groupBox2.Size = new System.Drawing.Size(649, 76);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Deportes";
@@ -184,7 +185,7 @@
             // 
             this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(36, 146);
+            this.groupBox3.Location = new System.Drawing.Point(36, 156);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(93, 84);
             this.groupBox3.TabIndex = 17;
@@ -214,9 +215,9 @@
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.textBox10);
             this.groupBox4.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(147, 12);
+            this.groupBox4.Location = new System.Drawing.Point(138, 41);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(640, 128);
+            this.groupBox4.Size = new System.Drawing.Size(649, 117);
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Datos";
@@ -320,7 +321,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(46, 53);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 63);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(73, 76);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -332,7 +333,7 @@
             this.btnModificarCliente.BackColor = System.Drawing.Color.Peru;
             this.btnModificarCliente.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnModificarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnModificarCliente.Location = new System.Drawing.Point(336, 247);
+            this.btnModificarCliente.Location = new System.Drawing.Point(336, 257);
             this.btnModificarCliente.Name = "btnModificarCliente";
             this.btnModificarCliente.Size = new System.Drawing.Size(100, 31);
             this.btnModificarCliente.TabIndex = 20;
@@ -344,7 +345,7 @@
             this.btnEliminarCliente.BackColor = System.Drawing.Color.Peru;
             this.btnEliminarCliente.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnEliminarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarCliente.Location = new System.Drawing.Point(473, 247);
+            this.btnEliminarCliente.Location = new System.Drawing.Point(473, 257);
             this.btnEliminarCliente.Name = "btnEliminarCliente";
             this.btnEliminarCliente.Size = new System.Drawing.Size(100, 31);
             this.btnEliminarCliente.TabIndex = 21;
@@ -356,7 +357,7 @@
             this.btnRegistroCliente.BackColor = System.Drawing.Color.Peru;
             this.btnRegistroCliente.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnRegistroCliente.ForeColor = System.Drawing.Color.White;
-            this.btnRegistroCliente.Location = new System.Drawing.Point(138, 247);
+            this.btnRegistroCliente.Location = new System.Drawing.Point(138, 257);
             this.btnRegistroCliente.Name = "btnRegistroCliente";
             this.btnRegistroCliente.Size = new System.Drawing.Size(160, 31);
             this.btnRegistroCliente.TabIndex = 22;
@@ -366,17 +367,30 @@
             // btnBuscarClienteMo
             // 
             this.btnBuscarClienteMo.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarClienteMo.Image")));
-            this.btnBuscarClienteMo.Location = new System.Drawing.Point(758, 251);
+            this.btnBuscarClienteMo.Location = new System.Drawing.Point(758, 261);
             this.btnBuscarClienteMo.Name = "btnBuscarClienteMo";
             this.btnBuscarClienteMo.Size = new System.Drawing.Size(29, 32);
             this.btnBuscarClienteMo.TabIndex = 30;
             this.btnBuscarClienteMo.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Purple;
+            this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(362, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 23);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "Nuevo cliente";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // frmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(829, 494);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBuscarClienteMo);
             this.Controls.Add(this.btnRegistroCliente);
             this.Controls.Add(this.btnEliminarCliente);
@@ -391,6 +405,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmClientes";
             this.Text = "frmClientes";
+            this.Load += new System.EventHandler(this.frmClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -435,5 +450,6 @@
         private System.Windows.Forms.Button btnEliminarCliente;
         private System.Windows.Forms.Button btnRegistroCliente;
         private System.Windows.Forms.Button btnBuscarClienteMo;
+        private System.Windows.Forms.Button button1;
     }
 }
