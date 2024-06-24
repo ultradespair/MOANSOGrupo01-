@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    public class Class1
+    public class entCliente
     {
+
+
+
+
     }
 }
