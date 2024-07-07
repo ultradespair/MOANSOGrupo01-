@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace MOANSO_Grupo_01
 {
-    public partial class frmEvento : Form
+    public partial class frmReserva : Form
     {
-        public frmEvento()
+        public frmReserva()
         {
             InitializeComponent();
         }
 
-       
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

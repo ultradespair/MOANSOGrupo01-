@@ -1,6 +1,6 @@
 ﻿namespace MOANSO_Grupo_01
 {
-    partial class frmEvento
+    partial class frmReserva
     {
         /// <summary>
         /// Required designer variable.
@@ -106,7 +106,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(123, 26);
             this.button5.TabIndex = 18;
-            this.button5.Text = "Nuevo Evento";
+            this.button5.Text = "Nueva reserva";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // groupBox2
@@ -116,7 +116,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
             this.groupBox2.Location = new System.Drawing.Point(22, 338);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(301, 83);
+            this.groupBox2.Size = new System.Drawing.Size(301, 144);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
@@ -130,7 +130,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 33);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Registrar";
+            this.button2.Text = "Reservar";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
@@ -186,9 +186,10 @@
             this.label5.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(6, 34);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 14);
+            this.label5.Size = new System.Drawing.Size(99, 14);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Ingresa DNI :";
+            this.label5.Text = "Ingresa cliente :";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // dateTimePicker1
             // 
@@ -219,9 +220,9 @@
             this.label3.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
             this.label3.Location = new System.Drawing.Point(6, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 14);
+            this.label3.Size = new System.Drawing.Size(93, 14);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Lugar del evento";
+            this.label3.Text = "Lugar a reservar";
             // 
             // label1
             // 
@@ -256,11 +257,11 @@
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
             this.label2.Location = new System.Drawing.Point(10, 199);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 14);
+            this.label2.Size = new System.Drawing.Size(96, 14);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Fecha de evento";
+            this.label2.Text = "Fecha de reserva";
             // 
-            // frmEvento
+            // frmReserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -270,7 +271,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "frmEvento";
+            this.Name = "frmReserva";
             this.Text = "frmEvento";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
