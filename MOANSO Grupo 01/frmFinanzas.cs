@@ -49,5 +49,10 @@ namespace MOANSO_Grupo_01
             frmHorarios frmhorarios = new frmHorarios();
             frmhorarios.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
