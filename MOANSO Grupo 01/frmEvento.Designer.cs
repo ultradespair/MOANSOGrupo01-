@@ -34,7 +34,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -43,9 +42,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.txtbuscarreserva = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -74,9 +78,9 @@
             this.label3.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
             this.label3.Location = new System.Drawing.Point(6, 150);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 14);
+            this.label3.Size = new System.Drawing.Size(85, 14);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Lugar del evento";
+            this.label3.Text = "Buscar reserva";
             // 
             // label4
             // 
@@ -84,14 +88,14 @@
             this.label4.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
             this.label4.Location = new System.Drawing.Point(6, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 14);
+            this.label4.Size = new System.Drawing.Size(89, 14);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Deporte";
+            this.label4.Text = "Tipo de evento";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtbuscarreserva);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
@@ -113,14 +117,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(202, 22);
             this.dateTimePicker1.TabIndex = 9;
             // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(129, 143);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 22);
-            this.comboBox2.TabIndex = 8;
-            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -139,9 +135,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(365, 28);
+            this.dataGridView1.Location = new System.Drawing.Point(367, 87);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(424, 426);
+            this.dataGridView1.Size = new System.Drawing.Size(424, 168);
             this.dataGridView1.TabIndex = 6;
             // 
             // groupBox2
@@ -205,11 +201,49 @@
             this.button5.Text = "Nuevo Evento";
             this.button5.UseVisualStyleBackColor = false;
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(367, 314);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(424, 155);
+            this.dataGridView2.TabIndex = 9;
+            // 
+            // txtbuscarreserva
+            // 
+            this.txtbuscarreserva.Location = new System.Drawing.Point(129, 142);
+            this.txtbuscarreserva.Name = "txtbuscarreserva";
+            this.txtbuscarreserva.Size = new System.Drawing.Size(121, 22);
+            this.txtbuscarreserva.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label5.Location = new System.Drawing.Point(364, 56);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 14);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Reservas";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label6.Location = new System.Drawing.Point(364, 283);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(138, 14);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Confirmacion de evento";
+            // 
             // frmEvento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(829, 494);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dataGridView1);
@@ -220,7 +254,9 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -232,7 +268,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -241,5 +276,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox txtbuscarreserva;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
