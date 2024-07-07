@@ -98,5 +98,10 @@ namespace MOANSO_Grupo_01
             ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;
             AbrirFormulario(menuItem, new frmReserva());
         }
+
+        private void contenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
