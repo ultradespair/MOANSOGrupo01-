@@ -21,5 +21,10 @@ namespace MOANSO_Grupo_01
         {
 
         }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

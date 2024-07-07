@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInstructores));
             this.btnAceptar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -50,22 +49,23 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBuscarInstructor = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.btnBuscarInstructor = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dtpfechainstructor = new System.Windows.Forms.DateTimePicker();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -83,7 +83,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.dtpfechainstructor);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.textBox6);
@@ -101,21 +101,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos";
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(422, 50);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(159, 20);
-            this.textBox5.TabIndex = 9;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(366, 56);
+            this.label7.Location = new System.Drawing.Point(305, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 14);
+            this.label7.Size = new System.Drawing.Size(126, 14);
             this.label7.TabIndex = 8;
-            this.label7.Text = "Edad";
+            this.label7.Text = "Fecha de nacimiento";
             // 
             // label8
             // 
@@ -278,6 +271,16 @@
             this.groupBox4.TabIndex = 24;
             this.groupBox4.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(6, 47);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(128, 128);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.comboBox2);
@@ -323,6 +326,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar por código";
             // 
+            // btnBuscarInstructor
+            // 
+            this.btnBuscarInstructor.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarInstructor.Image")));
+            this.btnBuscarInstructor.Location = new System.Drawing.Point(163, 19);
+            this.btnBuscarInstructor.Name = "btnBuscarInstructor";
+            this.btnBuscarInstructor.Size = new System.Drawing.Size(29, 32);
+            this.btnBuscarInstructor.TabIndex = 30;
+            this.btnBuscarInstructor.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Olive;
@@ -349,24 +361,12 @@
             this.button2.Text = "Eliminar Instructor";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // btnBuscarInstructor
+            // dtpfechainstructor
             // 
-            this.btnBuscarInstructor.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarInstructor.Image")));
-            this.btnBuscarInstructor.Location = new System.Drawing.Point(163, 19);
-            this.btnBuscarInstructor.Name = "btnBuscarInstructor";
-            this.btnBuscarInstructor.Size = new System.Drawing.Size(29, 32);
-            this.btnBuscarInstructor.TabIndex = 30;
-            this.btnBuscarInstructor.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 47);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(128, 128);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 30;
-            this.pictureBox1.TabStop = false;
+            this.dtpfechainstructor.Location = new System.Drawing.Point(437, 54);
+            this.dtpfechainstructor.Name = "dtpfechainstructor";
+            this.dtpfechainstructor.Size = new System.Drawing.Size(159, 20);
+            this.dtpfechainstructor.TabIndex = 13;
             // 
             // frmInstructores
             // 
@@ -390,11 +390,11 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -402,7 +402,6 @@
         #endregion
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
@@ -430,5 +429,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnBuscarInstructor;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DateTimePicker dtpfechainstructor;
     }
 }
