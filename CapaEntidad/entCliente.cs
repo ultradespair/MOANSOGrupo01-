@@ -21,4 +21,12 @@ namespace CapaEntidad
 
 
     }
+
+    public class entUsuario
+    {
+
+        public string Usuario { get; set; }
+        public string Contraseña { get; set; }
+
+    }
 }
