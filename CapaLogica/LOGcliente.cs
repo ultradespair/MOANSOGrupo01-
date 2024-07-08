@@ -30,6 +30,14 @@ namespace CapaLogica
         {
             DATcliente.Instancia.InsertarCliente(Cli);
         }
+
+        ///listado
+
+        public List<entCliente> ListarCliente()
+        {
+            return DATcliente.Instancia.ListarCliente();
+        }
+
         #endregion singleton
     }
 }

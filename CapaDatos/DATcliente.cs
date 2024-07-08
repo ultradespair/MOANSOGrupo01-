@@ -37,9 +37,8 @@ namespace CapaDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spInsertarCliente", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@DniID", Cli.DniID);
                 cmd.Parameters.AddWithValue("@NombreCompleto", Cli.NombreCompleto);
-                cmd.Parameters.AddWithValue("@ReservasID", Cli.ReservasID);
+                cmd.Parameters.AddWithValue("@DNI", Cli.DNI); 
                 cmd.Parameters.AddWithValue("@NumeroTelefono", Cli.NumeroTelefono);
                 cmd.Parameters.AddWithValue("@CorreoElectronico", Cli.CorreoElectronico);
                 cmd.Parameters.AddWithValue("@FechaNacimiento", Cli.FechaNacimiento);
@@ -63,6 +62,47 @@ namespace CapaDatos
             }
             return inserta;
         }
+
+
+
+
+        ////////////////////listado de Clientes
+        public List<entCliente> ListarCliente()
+        {
+            SqlCommand cmd = null;
+            List<entCliente> lista = new List<entCliente>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar(); //singleton
+                cmd = new SqlCommand("spListaCliente", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entCliente Cli = new entCliente();
+
+                    Cli.ClienteID = Convert.ToInt32(dr["ClienteID"]);
+                    Cli.NombreCompleto = dr["NombreCompleto"].ToString();
+                    Cli.DNI = Convert.ToInt32(dr["DNI"]);
+                    Cli.NumeroTelefono = Convert.ToInt32(dr["NumeroTelefono"]);
+                    Cli.CorreoElectronico = dr["CorreoElectronico"].ToString();
+                    Cli.FechaNacimiento = Convert.ToDateTime(dr["FechaNacimiento"]);
+                    lista.Add(Cli);
+                }
+
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
+
 
         #endregion singleton
 

@@ -33,15 +33,19 @@ namespace MOANSO_Grupo_01
         {
 
         }
+        public void listarCliente()
+        {
+            dgvCliente.DataSource = LOGcliente.Instancia.ListarCliente();
+        }
 
         private void btnRegistroCliente_Click(object sender, EventArgs e)
         {
             try
             {
                 entCliente c = new entCliente();
-                c.DniID = int.Parse(txtDNI.Text.Trim());
-                c.NombreCompleto = txtNombreCompleto.Text.Trim();
                 
+                c.NombreCompleto = txtNombreCompleto.Text.Trim();
+                c.DNI = int.Parse(txtDNI.Text.Trim());
                 c.NumeroTelefono = int.Parse(txtNumero.Text.Trim());
                 c.CorreoElectronico = txtCorreoCli .Text.Trim();
                 c.FechaNacimiento = dtpfechacliente.Value;
@@ -52,7 +56,7 @@ namespace MOANSO_Grupo_01
                 MessageBox.Show("Error.." + ex.Message);
             }
 
-
+            listarCliente();
 
         }
     }
