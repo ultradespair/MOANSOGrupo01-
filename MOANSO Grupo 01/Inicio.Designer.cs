@@ -36,7 +36,6 @@
             this.menuDeportes = new System.Windows.Forms.ToolStripMenuItem();
             this.areasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuInstructores = new System.Windows.Forms.ToolStripMenuItem();
             this.contenedor = new System.Windows.Forms.Panel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
@@ -99,8 +98,7 @@
             this.menuDeportes.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.menuDeportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.areasToolStripMenuItem,
-            this.eventosToolStripMenuItem,
-            this.reservaToolStripMenuItem});
+            this.eventosToolStripMenuItem});
             this.menuDeportes.Image = ((System.Drawing.Image)(resources.GetObject("menuDeportes.Image")));
             this.menuDeportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.menuDeportes.Name = "menuDeportes";
@@ -111,23 +109,16 @@
             // areasToolStripMenuItem
             // 
             this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
-            this.areasToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.areasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.areasToolStripMenuItem.Text = "Areas";
             this.areasToolStripMenuItem.Click += new System.EventHandler(this.areasToolStripMenuItem_Click);
             // 
             // eventosToolStripMenuItem
             // 
             this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
-            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
-            this.eventosToolStripMenuItem.Text = "Eventos";
+            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eventosToolStripMenuItem.Text = "Reserva";
             this.eventosToolStripMenuItem.Click += new System.EventHandler(this.eventosToolStripMenuItem_Click);
-            // 
-            // reservaToolStripMenuItem
-            // 
-            this.reservaToolStripMenuItem.Name = "reservaToolStripMenuItem";
-            this.reservaToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
-            this.reservaToolStripMenuItem.Text = "Reserva";
-            this.reservaToolStripMenuItem.Click += new System.EventHandler(this.reservaToolStripMenuItem_Click);
             // 
             // menuInstructores
             // 
@@ -218,6 +209,5 @@
         private System.Windows.Forms.ToolStripMenuItem menuInstructores;
         private System.Windows.Forms.ToolStripMenuItem areasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eventosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reservaToolStripMenuItem;
     }
 }
