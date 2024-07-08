@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CapaEntidad;
+using CapaLogica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +31,28 @@ namespace MOANSO_Grupo_01
 
         private void label9_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnRegistroCliente_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                entCliente c = new entCliente();
+                c.DniID = int.Parse(txtDNI.Text.Trim());
+                c.NombreCompleto = txtNombreCompleto.Text.Trim();
+                
+                c.NumeroTelefono = int.Parse(txtNumero.Text.Trim());
+                c.CorreoElectronico = txtCorreoCli .Text.Trim();
+                c.FechaNacimiento = dtpfechacliente.Value;
+                LOGcliente.Instancia.InsertaCliente(c);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error.." + ex.Message);
+            }
+
+
 
         }
     }

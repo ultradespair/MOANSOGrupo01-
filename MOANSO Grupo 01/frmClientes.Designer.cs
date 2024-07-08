@@ -37,13 +37,13 @@
             this.dtpfechacliente = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtCorreoCli = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.txtDNI = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtNombreCompleto = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnModificarCliente = new System.Windows.Forms.Button();
             this.btnEliminarCliente = new System.Windows.Forms.Button();
@@ -97,13 +97,13 @@
             this.groupBox4.Controls.Add(this.dtpfechacliente);
             this.groupBox4.Controls.Add(this.label9);
             this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Controls.Add(this.textBox7);
+            this.groupBox4.Controls.Add(this.txtCorreoCli);
             this.groupBox4.Controls.Add(this.label12);
-            this.groupBox4.Controls.Add(this.textBox8);
-            this.groupBox4.Controls.Add(this.textBox9);
+            this.groupBox4.Controls.Add(this.txtNumero);
+            this.groupBox4.Controls.Add(this.txtDNI);
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label14);
-            this.groupBox4.Controls.Add(this.textBox10);
+            this.groupBox4.Controls.Add(this.txtNombreCompleto);
             this.groupBox4.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(138, 41);
             this.groupBox4.Name = "groupBox4";
@@ -138,12 +138,12 @@
             this.label11.TabIndex = 7;
             this.label11.Text = "Correo electrónico";
             // 
-            // textBox7
+            // txtCorreoCli
             // 
-            this.textBox7.Location = new System.Drawing.Point(455, 41);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(159, 20);
-            this.textBox7.TabIndex = 6;
+            this.txtCorreoCli.Location = new System.Drawing.Point(455, 41);
+            this.txtCorreoCli.Name = "txtCorreoCli";
+            this.txtCorreoCli.Size = new System.Drawing.Size(159, 20);
+            this.txtCorreoCli.TabIndex = 6;
             // 
             // label12
             // 
@@ -154,19 +154,19 @@
             this.label12.TabIndex = 5;
             this.label12.Text = "Número Telefónico";
             // 
-            // textBox8
+            // txtNumero
             // 
-            this.textBox8.Location = new System.Drawing.Point(130, 152);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(159, 20);
-            this.textBox8.TabIndex = 4;
+            this.txtNumero.Location = new System.Drawing.Point(130, 152);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(159, 20);
+            this.txtNumero.TabIndex = 4;
             // 
-            // textBox9
+            // txtDNI
             // 
-            this.textBox9.Location = new System.Drawing.Point(130, 98);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(159, 20);
-            this.textBox9.TabIndex = 3;
+            this.txtDNI.Location = new System.Drawing.Point(130, 98);
+            this.txtDNI.Name = "txtDNI";
+            this.txtDNI.Size = new System.Drawing.Size(159, 20);
+            this.txtDNI.TabIndex = 3;
             // 
             // label13
             // 
@@ -186,12 +186,12 @@
             this.label14.TabIndex = 1;
             this.label14.Text = "Nombre completo";
             // 
-            // textBox10
+            // txtNombreCompleto
             // 
-            this.textBox10.Location = new System.Drawing.Point(130, 44);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(159, 20);
-            this.textBox10.TabIndex = 0;
+            this.txtNombreCompleto.Location = new System.Drawing.Point(130, 44);
+            this.txtNombreCompleto.Name = "txtNombreCompleto";
+            this.txtNombreCompleto.Size = new System.Drawing.Size(159, 20);
+            this.txtNombreCompleto.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -238,6 +238,7 @@
             this.btnRegistroCliente.TabIndex = 22;
             this.btnRegistroCliente.Text = "Registrar";
             this.btnRegistroCliente.UseVisualStyleBackColor = false;
+            this.btnRegistroCliente.Click += new System.EventHandler(this.btnRegistroCliente_Click);
             // 
             // btnBuscarClienteMo
             // 
@@ -297,13 +298,13 @@
         private System.Windows.Forms.DateTimePicker dtpfechacliente;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtCorreoCli;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtNombreCompleto;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnModificarCliente;
         private System.Windows.Forms.Button btnEliminarCliente;
