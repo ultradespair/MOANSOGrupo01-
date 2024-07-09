@@ -2,6 +2,7 @@
 using CapaEntidad;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,5 +40,40 @@ namespace CapaLogica
         }
 
         #endregion singleton
+
+        public static bool InsertarReserva(entReserva reserva)
+        {
+            try
+            {
+               
+                return DATcliente.Instancia.InsertarReserva(reserva);
+            }
+            catch (Exception ex)
+            {
+                throw ex; 
+            }
+        }
+
+        public static List<entReserva> ListarReservas()
+        {
+            return DATcliente.Instancia.ListarReservas();
+        }
+
+        public static List<string> ObtenerTiposDeEventos()
+        {
+            return DATcliente.Instancia.ObtenerTiposDeEventos();
+        }
+
+        public static List<string> ObtenerDeportes()
+        {
+            return DATcliente.Instancia.ObtenerDeportes();
+        }
+
+        public Boolean ModificarReserva(entReserva reserva)
+        {
+            return DATcliente.Instancia.ModificarReserva(reserva);
+        }
+
+
     }
 }

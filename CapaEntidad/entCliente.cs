@@ -41,4 +41,13 @@ namespace CapaEntidad
         public string Horario { get; set; }
     }
 
+    public class entReserva
+    {
+        public int ReservaID { get; set; }
+        public int ClienteID { get; set; }
+        public string NombreEvento { get; set; }
+        public string TipoEvento { get; set; }
+        public string LugarReserva { get; set; }
+        public DateTime FechaReserva { get; set; }
+    }
 }

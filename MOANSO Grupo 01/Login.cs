@@ -51,6 +51,9 @@ namespace MOANSO_Grupo_01
                 // Si las credenciales no son correctas, mostrar un mensaje de error
                 MessageBox.Show("Usuario o contraseña incorrectos.");
             }
+            txtUsuario.Text = "";
+            txtContraseña.Text = "";
+            txtUsuario.Focus();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

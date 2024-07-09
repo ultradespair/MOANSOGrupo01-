@@ -28,48 +28,153 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnMostrarFutbol = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.rbInhabilitadoFutbol = new System.Windows.Forms.RadioButton();
+            this.rbOcupadoFutbol = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.rbActivoFutbol = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dgvReservasFutbol = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblVecesFutbol = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReservasFutbol)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // label5
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 16);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(702, 152);
-            this.dataGridView1.TabIndex = 0;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(542, 451);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 36;
+            this.label5.Text = "Buscar";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(135, 340);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(101, 102);
+            this.button2.TabIndex = 35;
+            this.button2.Text = "Ocultar Reservas";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(601, 448);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 32;
+            // 
+            // btnMostrarFutbol
+            // 
+            this.btnMostrarFutbol.Location = new System.Drawing.Point(16, 340);
+            this.btnMostrarFutbol.Name = "btnMostrarFutbol";
+            this.btnMostrarFutbol.Size = new System.Drawing.Size(101, 102);
+            this.btnMostrarFutbol.TabIndex = 34;
+            this.btnMostrarFutbol.Text = "Mostrar Reservas";
+            this.btnMostrarFutbol.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.rbInhabilitadoFutbol);
+            this.groupBox4.Controls.Add(this.rbOcupadoFutbol);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.rbActivoFutbol);
+            this.groupBox4.Location = new System.Drawing.Point(16, 188);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(220, 121);
+            this.groupBox4.TabIndex = 33;
+            this.groupBox4.TabStop = false;
+            // 
+            // rbInhabilitadoFutbol
+            // 
+            this.rbInhabilitadoFutbol.AutoSize = true;
+            this.rbInhabilitadoFutbol.Location = new System.Drawing.Point(18, 89);
+            this.rbInhabilitadoFutbol.Name = "rbInhabilitadoFutbol";
+            this.rbInhabilitadoFutbol.Size = new System.Drawing.Size(79, 17);
+            this.rbInhabilitadoFutbol.TabIndex = 2;
+            this.rbInhabilitadoFutbol.TabStop = true;
+            this.rbInhabilitadoFutbol.Text = "Inhabilitado";
+            this.rbInhabilitadoFutbol.UseVisualStyleBackColor = true;
+            // 
+            // rbOcupadoFutbol
+            // 
+            this.rbOcupadoFutbol.AutoSize = true;
+            this.rbOcupadoFutbol.Location = new System.Drawing.Point(119, 51);
+            this.rbOcupadoFutbol.Name = "rbOcupadoFutbol";
+            this.rbOcupadoFutbol.Size = new System.Drawing.Size(69, 17);
+            this.rbOcupadoFutbol.TabIndex = 1;
+            this.rbOcupadoFutbol.TabStop = true;
+            this.rbOcupadoFutbol.Text = "Ocupado";
+            this.rbOcupadoFutbol.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(127, -17);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 14);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Buscar reserva";
+            // 
+            // rbActivoFutbol
+            // 
+            this.rbActivoFutbol.AutoSize = true;
+            this.rbActivoFutbol.Location = new System.Drawing.Point(20, 19);
+            this.rbActivoFutbol.Name = "rbActivoFutbol";
+            this.rbActivoFutbol.Size = new System.Drawing.Size(55, 17);
+            this.rbActivoFutbol.TabIndex = 0;
+            this.rbActivoFutbol.TabStop = true;
+            this.rbActivoFutbol.Text = "Activo";
+            this.rbActivoFutbol.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.dgvReservasFutbol);
+            this.groupBox3.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(251, 21);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(453, 421);
+            this.groupBox3.TabIndex = 31;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Reservas";
+            // 
+            // dgvReservasFutbol
+            // 
+            this.dgvReservasFutbol.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvReservasFutbol.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvReservasFutbol.Location = new System.Drawing.Point(3, 16);
+            this.dgvReservasFutbol.Name = "dgvReservasFutbol";
+            this.dgvReservasFutbol.Size = new System.Drawing.Size(447, 402);
+            this.dgvReservasFutbol.TabIndex = 0;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.lblVecesFutbol);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(506, 117);
+            this.groupBox1.Location = new System.Drawing.Point(16, 21);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(202, 142);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.Size = new System.Drawing.Size(218, 150);
+            this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
             // 
@@ -100,132 +205,53 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Capacidad máxima:";
             // 
-            // comboBox1
+            // label7
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "AREAFUT123",
-            "AREAFUT456",
-            "AREAFUT789"});
-            this.comboBox1.Location = new System.Drawing.Point(44, 28);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 22);
-            this.comboBox1.TabIndex = 2;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(116, 116);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(82, 14);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "90 m x 64 m";
             // 
-            // groupBox2
+            // lblVecesFutbol
             // 
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(506, 30);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(202, 67);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Secciones";
+            this.lblVecesFutbol.AutoSize = true;
+            this.lblVecesFutbol.Location = new System.Drawing.Point(123, 73);
+            this.lblVecesFutbol.Name = "lblVecesFutbol";
+            this.lblVecesFutbol.Size = new System.Drawing.Size(15, 14);
+            this.lblVecesFutbol.TabIndex = 8;
+            this.lblVecesFutbol.Text = "0";
             // 
-            // groupBox3
+            // label6
             // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 265);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(708, 171);
-            this.groupBox3.TabIndex = 6;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Reservas";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(108, 452);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 16;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(9, 455);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 14);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Buscar reserva";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.radioButton3);
-            this.groupBox4.Controls.Add(this.radioButton2);
-            this.groupBox4.Controls.Add(this.radioButton1);
-            this.groupBox4.Location = new System.Drawing.Point(19, 221);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(463, 37);
-            this.groupBox4.TabIndex = 18;
-            this.groupBox4.TabStop = false;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(377, 14);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(79, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Inhabilitado";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(196, 16);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(69, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Ocupado";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(21, 14);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Activo";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(19, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(463, 201);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(135, 33);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(22, 14);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "18";
             // 
             // frmDeportesFutbol
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 489);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnMostrarFutbol);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmDeportesFutbol";
             this.Text = "frmDeportesFutbol";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReservasFutbol)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,20 +259,23 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnMostrarFutbol;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RadioButton rbInhabilitadoFutbol;
+        private System.Windows.Forms.RadioButton rbOcupadoFutbol;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton rbActivoFutbol;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.DataGridView dgvReservasFutbol;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblVecesFutbol;
+        private System.Windows.Forms.Label label6;
     }
 }
