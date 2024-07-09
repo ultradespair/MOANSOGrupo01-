@@ -258,6 +258,43 @@ namespace CapaDatos
             }
             return modificado;
         }
+
+        public Boolean ModificarCliente(entCliente Cli)
+        {
+            SqlCommand cmd = null;
+            Boolean modifica = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("ModificarCliente", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ClienteID", Cli.ClienteID);
+                cmd.Parameters.AddWithValue("@NombreCompleto", Cli.NombreCompleto);
+                cmd.Parameters.AddWithValue("@DNI", Cli.DNI);
+                cmd.Parameters.AddWithValue("@NumeroTelefono", Cli.NumeroTelefono);
+                cmd.Parameters.AddWithValue("@CorreoElectronico", Cli.CorreoElectronico);
+                cmd.Parameters.AddWithValue("@FechaNacimiento", Cli.FechaNacimiento);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    modifica = true;
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                if (cmd != null && cmd.Connection != null)
+                {
+                    cmd.Connection.Close();
+                }
+            }
+            return modifica;
+        }
+
     }
 
 }

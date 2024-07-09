@@ -80,6 +80,7 @@
             this.dgvCliente.Name = "dgvCliente";
             this.dgvCliente.Size = new System.Drawing.Size(751, 181);
             this.dgvCliente.TabIndex = 5;
+            this.dgvCliente.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCliente_CellClick);
             // 
             // label2
             // 
@@ -214,6 +215,7 @@
             this.btnModificarCliente.TabIndex = 20;
             this.btnModificarCliente.Text = "Modificar";
             this.btnModificarCliente.UseVisualStyleBackColor = false;
+            this.btnModificarCliente.Click += new System.EventHandler(this.btnModificarCliente_Click);
             // 
             // btnEliminarCliente
             // 

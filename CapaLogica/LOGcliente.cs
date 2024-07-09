@@ -74,6 +74,10 @@ namespace CapaLogica
             return DATcliente.Instancia.ModificarReserva(reserva);
         }
 
+        public void ModificarCliente(entCliente Cli)
+        {
+            DATcliente.Instancia.ModificarCliente(Cli);
+        }
 
     }
 }

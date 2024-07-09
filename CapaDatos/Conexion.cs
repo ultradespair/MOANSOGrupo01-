@@ -21,7 +21,7 @@ namespace CapaDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=.; Initial Catalog =GyCC_MOANSO;" +//"User ID=sa; Password=123";
+            cn.ConnectionString = "Data Source=CO71592595; Initial Catalog =GyCC_MOANSO;" +//"User ID=sa; Password=123";
                                 "Integrated Security=true";
 
             return cn;
