@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="DATcliente.cs" />
+    <Compile Include="DATinstructor.cs" />
     <Compile Include="DATusuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

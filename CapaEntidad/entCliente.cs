@@ -29,4 +29,16 @@ namespace CapaEntidad
         public string Contraseña { get; set; }
 
     }
+
+    public class Instructor
+    {
+        public int InstructorID { get; set; }
+        public string NombreCompleto { get; set; }
+        public int DNI { get; set; }
+        public int NumeroTelefonico { get; set; }
+        public string CorreoElectronico { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public string Horario { get; set; }
+    }
+
 }
