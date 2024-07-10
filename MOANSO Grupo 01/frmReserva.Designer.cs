@@ -44,6 +44,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtNombreReserva = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReservasTotales)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -66,9 +71,9 @@
             this.groupBox2.Controls.Add(this.btnReservar);
             this.groupBox2.Controls.Add(this.btnModificar);
             this.groupBox2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
-            this.groupBox2.Location = new System.Drawing.Point(22, 338);
+            this.groupBox2.Location = new System.Drawing.Point(22, 378);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(301, 144);
+            this.groupBox2.Size = new System.Drawing.Size(306, 104);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
@@ -78,9 +83,9 @@
             this.btnReservar.BackColor = System.Drawing.Color.Green;
             this.btnReservar.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnReservar.ForeColor = System.Drawing.Color.White;
-            this.btnReservar.Location = new System.Drawing.Point(21, 32);
+            this.btnReservar.Location = new System.Drawing.Point(15, 32);
             this.btnReservar.Name = "btnReservar";
-            this.btnReservar.Size = new System.Drawing.Size(84, 33);
+            this.btnReservar.Size = new System.Drawing.Size(116, 44);
             this.btnReservar.TabIndex = 1;
             this.btnReservar.Text = "Reservar";
             this.btnReservar.UseVisualStyleBackColor = false;
@@ -91,9 +96,9 @@
             this.btnModificar.BackColor = System.Drawing.Color.Teal;
             this.btnModificar.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnModificar.ForeColor = System.Drawing.Color.White;
-            this.btnModificar.Location = new System.Drawing.Point(166, 32);
+            this.btnModificar.Location = new System.Drawing.Point(160, 32);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(84, 33);
+            this.btnModificar.Size = new System.Drawing.Size(124, 44);
             this.btnModificar.TabIndex = 0;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
@@ -102,14 +107,19 @@
             // dgvReservasTotales
             // 
             this.dgvReservasTotales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvReservasTotales.Location = new System.Drawing.Point(353, 44);
+            this.dgvReservasTotales.Location = new System.Drawing.Point(334, 44);
             this.dgvReservasTotales.Name = "dgvReservasTotales";
-            this.dgvReservasTotales.Size = new System.Drawing.Size(454, 438);
+            this.dgvReservasTotales.Size = new System.Drawing.Size(471, 438);
             this.dgvReservasTotales.TabIndex = 16;
             this.dgvReservasTotales.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvReservasTotales_CellClick);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.dateTimePicker3);
+            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtClienteReserva);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.dtpFechaReserva);
@@ -123,14 +133,14 @@
             this.groupBox1.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
             this.groupBox1.Location = new System.Drawing.Point(22, 44);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(301, 272);
+            this.groupBox1.Size = new System.Drawing.Size(306, 317);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de evento";
             // 
             // txtClienteReserva
             // 
-            this.txtClienteReserva.Location = new System.Drawing.Point(129, 31);
+            this.txtClienteReserva.Location = new System.Drawing.Point(160, 31);
             this.txtClienteReserva.Name = "txtClienteReserva";
             this.txtClienteReserva.Size = new System.Drawing.Size(121, 22);
             this.txtClienteReserva.TabIndex = 16;
@@ -148,10 +158,13 @@
             // 
             // dtpFechaReserva
             // 
-            this.dtpFechaReserva.Location = new System.Drawing.Point(73, 227);
+            this.dtpFechaReserva.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpFechaReserva.Location = new System.Drawing.Point(141, 223);
             this.dtpFechaReserva.Name = "dtpFechaReserva";
-            this.dtpFechaReserva.Size = new System.Drawing.Size(202, 22);
+            this.dtpFechaReserva.Size = new System.Drawing.Size(105, 22);
             this.dtpFechaReserva.TabIndex = 9;
+            this.dtpFechaReserva.Value = new System.DateTime(2024, 7, 10, 16, 22, 0, 0);
+            this.dtpFechaReserva.ValueChanged += new System.EventHandler(this.dtpFechaReserva_ValueChanged);
             // 
             // cbAreaReserva
             // 
@@ -164,7 +177,7 @@
             // cbEventoReserva
             // 
             this.cbEventoReserva.FormattingEnabled = true;
-            this.cbEventoReserva.Location = new System.Drawing.Point(129, 114);
+            this.cbEventoReserva.Location = new System.Drawing.Point(160, 114);
             this.cbEventoReserva.Name = "cbEventoReserva";
             this.cbEventoReserva.Size = new System.Drawing.Size(121, 22);
             this.cbEventoReserva.TabIndex = 7;
@@ -201,7 +214,7 @@
             // 
             // txtNombreReserva
             // 
-            this.txtNombreReserva.Location = new System.Drawing.Point(129, 70);
+            this.txtNombreReserva.Location = new System.Drawing.Point(160, 70);
             this.txtNombreReserva.Name = "txtNombreReserva";
             this.txtNombreReserva.Size = new System.Drawing.Size(121, 22);
             this.txtNombreReserva.TabIndex = 6;
@@ -210,11 +223,58 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
-            this.label2.Location = new System.Drawing.Point(10, 199);
+            this.label2.Location = new System.Drawing.Point(6, 196);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 14);
+            this.label2.Size = new System.Drawing.Size(84, 14);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Fecha de reserva";
+            this.label2.Text = "Fecha  Inicio :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label6.Location = new System.Drawing.Point(9, 231);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 14);
+            this.label6.TabIndex = 17;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(15, 223);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(111, 22);
+            this.dateTimePicker1.TabIndex = 18;
+            this.dateTimePicker1.Value = new System.DateTime(2024, 7, 10, 16, 22, 0, 0);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F);
+            this.label7.Location = new System.Drawing.Point(6, 263);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(70, 14);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Fecha  Fin :";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(15, 289);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(111, 22);
+            this.dateTimePicker2.TabIndex = 20;
+            this.dateTimePicker2.Value = new System.DateTime(2024, 7, 10, 16, 22, 0, 0);
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker3.Location = new System.Drawing.Point(141, 289);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(105, 22);
+            this.dateTimePicker3.TabIndex = 21;
+            this.dateTimePicker3.Value = new System.DateTime(2024, 7, 10, 16, 22, 0, 0);
             // 
             // frmReserva
             // 
@@ -253,5 +313,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtNombreReserva;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label7;
     }
 }

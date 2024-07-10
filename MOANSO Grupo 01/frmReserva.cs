@@ -153,5 +153,20 @@ namespace MOANSO_Grupo_01
                 dtpFechaReserva.Value = Convert.ToDateTime(fila.Cells["FechaReserva"].Value);
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpFechaReserva_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
